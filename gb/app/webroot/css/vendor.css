@@ -1,0 +1,43 @@
+body {
+//	padding-top: 40px;
+//	padding-bottom: 40px;
+}
+
+.content {
+	font-size: 80%;
+}
+
+#flashMessage{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #EEEEEE;
+	color: #444444;
+}
+
+.error-message {
+	color: #CC0000;
+}
+
+.error {
+	color: #CC0000;
+}
+
+.img100 {
+	min-width: 100px !important;
+	max-width: 100px !important;
+}
+
+td div {
+	max-height: 130px;
+	overflow-y: scroll;
+}
+
+td.constrain img{
+	max-height: 90px;
+	width: auto;
+}
+
+td.art-constrain div {
+	max-height: 70px;
+}

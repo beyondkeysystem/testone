@@ -1,0 +1,258 @@
+body {
+	background-color: #94c0c0;
+	border-top: 5px solid #000;
+	font-family: 'Open Sans', verdana, arial, sans-serif;
+	font-size: 13px;
+	padding-top: 0px; }
+ 
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container { width: 960px; }
+ 
+.span4 {
+	background-color: #FFF;
+	height: 390px;
+	margin-bottom: 30px; }
+
+#lower .row-fluid {
+	padding-left:30px;
+}
+
+ 
+.row-fluid .span4 img { margin-bottom:10px; }
+ 
+.row-fluid .span4 .img-box { 
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	font-size:12px;
+ }
+ 
+.span4.gb-box-front {
+	width:29.1%;
+	height:325px;
+	margin-left:30px;
+}
+ 
+#gb-title { margin-top: 10px; }
+ 
+#gb-title img { text-align: center; }
+ 
+.title-description {
+	color: #fff;
+	font-weight: bold; }
+ 
+#account {
+	position: absolute;
+	right: 170px;
+	top: 70px; }
+ 
+ 
+ul.gb-horiz-account {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 70%; }
+ 
+li.gb-account {
+	display: inline;
+	list-style-image: none;
+	padding-left: 15px; }
+ 
+	li.gb-account a {
+		color: #d64c32; /*text-decoration: none;*/
+		font-weight: bold; }
+ 
+.span4 { border: #F33 thin solid; }
+ 
+#upper {
+	height: 410px;
+	margin: 0px;
+	padding: 0px; }
+ 
+#lower {
+	background: url(../img/global/fff-50.png) repeat;
+	position: relative; }
+	
+.carousel {
+	margin-bottom:30px;
+}
+
+.carousel-inner {  }
+ 
+.carousel-inner .item {
+	margin-left:0px;
+	margin-top:0px;
+	/*left: 9.2%; /*position:relative;*/
+	/*width: 100%;*/ }
+	
+.carousel-control {
+	top:50%;
+	 } 
+
+.carousel-control.left {
+	left:-55px; 
+}	
+.carousel-control.right {
+	right:-55px; 
+}	
+
+	
+#infinite-background {
+	background-image: url(../img/global/infinite-header.png);
+	background-repeat: repeat-x; }
+ 
+#header-magazine, #header {
+	background-repeat: no-repeat;
+	height: 105px; }
+  
+#header-magazine {
+	background-image: url(../img/global/GB-header-clean.png);
+	margin: auto;
+	width: 1200px; }
+ 
+#left-header, #right-header {
+	height: 100px;
+	position: absolute;
+	width: 600px; }
+ 
+#left-header {
+	background-image: url(../img/global/bubbles-left.png);
+	background-repeat: repeat-x;
+	left: -600px;
+	top: 0px; }
+ 
+#right-header {
+	background-image: url(../img/global/bubbles-right.png);
+	background-repeat: repeat-x;
+	right: -600px;
+	top: 0px; }
+ 
+ 
+/** TICKER **/
+.ticker-wrap {
+	height: 80px;
+	position: absolute;
+	top: 515px; }
+ 
+/* liScroll styles */
+.tickercontainer {
+	margin: 0; /* the outer div with the black border */
+	overflow: hidden;
+	padding: 0; }
+ 
+	.tickercontainer .mask {
+		position: relative; /* that serves as a mask. so you get a sort of padding both left and right */
+		width: 1200px; /**overflow: hidden;**/ }
+ 
+ul.newsticker {
+	font: bold 10px Verdana; /**left: 1000px;**/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative; /* that's your list */ }
+ 
+	ul.newsticker li {
+		float: left; /* important: display inline gives incorrect results when you check for elem's width */
+		margin: 0;
+		padding: 0; }
+  
+ 
+/** Headlines **/
+#headlines {
+	margin-top: 55px;
+	position: relative; }
+ 
+.headline-1, .headline-2, .headline-3, .headline-4 {
+	background-color: transparent;
+	color: #FFF;
+	font-size: 150%;
+	height: 150px;
+	margin-bottom: 75px; }
+	
+.headline-3, .headline-4 {
+	margin-bottom: 20px;
+	height:30px;
+}
+ 
+.headline-1 a, .headline-2 a, .headline-3 a, .headline-4 a {
+	color: #FFF;
+	text-decoration: none; }
+ 
+.headline-2.span6 h2 a, .headline-4.span6 h2 a { float: right; }
+ 
+.headline-4 a {
+	color: #D9553E;
+	font-style: italic; }
+ 
+.front-page-pic-link {
+	display:none;
+	color: #FFF; /*font-weight: bold;*/
+	float: left;
+	height: 23px;
+	left: 0px;
+	position: absolute; /*background-color: #312b2d;*/
+	top: 320px;
+	width: 470px; }
+ 
+div.pic-link-title a {
+	color: #FFF;
+	font-size: 90%;
+	text-decoration: none; }
+ 
+div.pic-link-title {
+	float: left;
+	padding-top: 0px;
+	position: relative;
+	z-index: 500; }
+ 
+.shop-now {
+	background-color: #DD5944;
+	border: 1px solid #bbb;
+	margin-top: -1px;
+	position: relative;
+	z-index: 200; }
+ 
+	.shop-now a {
+		color: #fff;
+		font-size: 90%; /* [disabled]font-weight: bold; */
+		padding: 5px 5px;
+		text-decoration: none;
+		width: 100px; }
+ 
+.carousel-caption {
+	color: #fff;
+	font-size: 14px;
+	left: 20px;
+	line-height: 20px;
+	position: absolute;
+	top: 10px;
+	width: 300px; }
+ 
+	.carousel-caption h1 { font-size: 34px; }
+ 
+.navbar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px; }
+ 
+.navbar-fixed-top { top: 121px; }
+ 
+.navbar-inner {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	background: none;
+	border: none;
+	box-shadow: none; }
+ 
+.navbar .nav > li > a {
+	color: #FFF;
+	padding: 10px 15px 10px;
+	text-decoration: none;
+	text-shadow: none; }
+ 
+.caret {
+	vertical-align: middle;
+	padding-left;:3px;
+
+}
+
