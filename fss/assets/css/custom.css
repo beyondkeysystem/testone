@@ -1,0 +1,20 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200);
+.tablesorter-filter-row td input{width: 100px;height: 30px;}
+.controls input{height: 30px;}
+.container{ width: 969px!important}
+
+td, th {
+  border: 1px solid #e5e5e5;
+  padding: 6px 5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:14px;
+}
+#edit_ads_form label{
+	padding-left:0;
+	padding-bottom:5px;
+	margin-left:0;
+}
+tr:first-child{
+	background:#F4F4F4;
+	font-weight:bold;
+}

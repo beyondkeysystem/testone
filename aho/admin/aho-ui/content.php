@@ -1,0 +1,145 @@
+<?php 
+
+if($Page == 'Home' or $Page == '' or $Page == 'Login'){
+	if($Check_Admin == 1){ 
+	    ?>
+	    <script type="text/javascript">
+		window.location="index.php?Page=Accounts";
+	    </script>
+	    <?php
+            include("aho-ui/content/ac.php");
+	}else{
+	   
+	   // if(isset($_REQUEST['AcceptLead']) && $_REQUEST['AcceptLead']==1){
+		//include("aho-ui/content/login.php?AcceptLead=1");
+	    //}
+	   // else{
+		include("aho-ui/content/login.php");
+	    //}
+            
+	}
+
+}
+if($Page == 'Registration'){
+	include("aho-ui/content/reg.php");
+}
+if($Page == 'Forgot'){
+	include("aho-ui/content/for.php");
+}
+if($Page == 'Accounts'){
+	if($Check_Admin == 1){
+		include("aho-ui/content/ac.php");
+	}else{
+		include("aho-ui/content/login.php");
+	}
+}
+
+if($Page == 'Contact'){
+	include("aho-ui/content/cont.php");
+}
+if($Page == 'Upgrade'){
+	include("aho-ui/content/upg.php");
+}
+if($Page == 'Thanks'){
+	include("aho-ui/content/thn.php");
+}
+if($Page == 'Cancel'){
+	include("aho-ui/content/can.php");
+}
+if($Page == 'Contacts'){
+	include("aho-ui/content/contacts.php");
+}
+if($Page == 'FindAgent'){
+	include("aho-ui/content/findagent.php");
+}
+
+if($Page == 'credits'){
+	include("aho-ui/content/credits.php");
+}
+if($Page == 'cancel'){
+	include("aho-ui/content/cancel.php");
+}
+/*starts here*/
+if($Page == 'brokers'){
+    include("aho-ui/content/brokers.php");
+}
+
+if($Page == 'FindBroker'){
+	include("aho-ui/content/findbroker.php");
+}
+if($Page == 'Agents'){
+	include("aho-ui/content/agents.php");
+}
+
+/*ends here*/
+if($Page == 'FindBrokerAgents'){
+	include("aho-ui/content/br_agents.php");
+}
+if($Page == 'AgentContacts'){
+	include("aho-ui/content/agent_contacts.php");
+}
+/*1-05-2014*/
+if($Page == 'AllAgents'){
+	include("aho-ui/content/all_agents.php");
+}
+if($Page == 'FindAllAgents'){
+	include("aho-ui/content/find_all_agents.php");
+}
+if($Page == 'Subscription'){
+	include("aho-ui/content/subscription.php");
+}
+if($Page == 'AdminLogin'){
+	if($Check_Admin == 1){
+            include("aho-ui/content/ac.php");
+	}else{
+            include("aho-ui/content/admin_login.php");
+	}
+
+}
+/*1-05-2014*/
+if($Page == 'Video'){
+	if($Check_Admin == 1){
+            include("aho-ui/content/video.php");
+	}else{
+            include("aho-ui/content/admin_login.php");
+	}
+
+}
+if($Page == 'Consumers'){
+	if($Check_Admin == 1){
+            include("aho-ui/content/consumers.php");
+	}else{
+            include("aho-ui/content/admin_login.php");
+	}
+
+} 
+if($Page == 'Leads'){
+	if($Check_Admin == 1){
+            include("aho-ui/content/leads.php");
+	}else{
+            include("aho-ui/content/admin_login.php");
+	}
+
+}
+/* 11-sep-2014*/
+if($Page == 'AgentLeads'){
+        include("aho-ui/content/agent_leads.php");
+}
+
+/* 18-sep-2014*/
+if($Page == 'AgentLeadsMobile'){
+        include("aho-ui/content/agent_leads_mobile.php");
+}
+
+
+/* 17-Nov-2014*/
+if($Page == 'DeleteSelected'){
+	include("aho-ui/content/delete_selected.php");
+}
+
+if($Page == 'DeleteSelectedConsumer'){
+	include("aho-ui/content/delete_selected_consumer.php");
+}
+?>
+    </div>
+</section>

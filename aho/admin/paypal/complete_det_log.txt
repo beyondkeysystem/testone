@@ -1,0 +1,169 @@
+1424415346
+Array
+(
+    [_ga] => GA1.2.2021737256.1415856264
+    [PHPSESSID] => 9580da4be37373957c812ae86bdcc134
+)
+
+
+1424415386
+Array
+(
+    [_ga] => GA1.2.2021737256.1415856264
+    [PHPSESSID] => 9580da4be37373957c812ae86bdcc134
+)
+
+
+20-02-15 19:42:50
+Array
+(
+    [mc_gross] => 128.00
+    [invoice] => INV2-YTXX-368T-53JB-P38N
+    [protection_eligibility] => Eligible
+    [address_status] => confirmed
+    [item_number1] => 
+    [payer_id] => R8KYPPS2DVX8S
+    [address_street] => 500 Lake Tahoe Ln
+    [payment_date] => 12:43:44 Feb 18, 2015 PST
+    [payment_status] => Completed
+    [invoice_id] => INV2-YTXX-368T-53JB-P38N
+    [charset] => windows-1252
+    [address_zip] => 89005
+    [first_name] => James
+    [mc_fee] => 4.01
+    [address_country_code] => US
+    [address_name] => James Beste
+    [notify_version] => 3.8
+    [custom] => 
+    [payer_status] => verified
+    [business] => burt@americanhomesonline.com
+    [address_country] => United States
+    [num_cart_items] => 1
+    [mc_handling1] => 0.00
+    [address_city] => Boulder City
+    [verify_sign] => AkB3d32qED3La8zGnWAJ5mRVrcK9AzJRn81EYZu0-xQhLf1m9aRTcAXS
+    [payer_email] => bestbetvacations@gmail.com
+    [mc_shipping1] => 0.00
+    [tax1] => 0.00
+    [txn_id] => 7KK8416901635213J
+    [payment_type] => instant
+    [last_name] => Beste
+    [address_state] => NV
+    [item_name1] => Payment to Burt Klein for invoice 0004
+    [receiver_email] => burt@americanhomesonline.com
+    [payment_fee] => 4.01
+    [quantity1] => 1
+    [receiver_id] => 4QUD4M265JPRN
+    [txn_type] => invoice_payment
+    [mc_gross_1] => 128.00
+    [mc_currency] => USD
+    [residence_country] => US
+    [transaction_subject] => 
+    [invoice_number] => 0004
+    [payment_gross] => 128.00
+    [ipn_track_id] => 819a474970952
+)
+
+
+21-02-15 20:02:47
+Array
+(
+    [mc_gross] => 128.00
+    [invoice] => INV2-YTXX-368T-53JB-P38N
+    [protection_eligibility] => Eligible
+    [address_status] => confirmed
+    [item_number1] => 
+    [payer_id] => R8KYPPS2DVX8S
+    [address_street] => 500 Lake Tahoe Ln
+    [payment_date] => 12:43:44 Feb 18, 2015 PST
+    [payment_status] => Completed
+    [invoice_id] => INV2-YTXX-368T-53JB-P38N
+    [charset] => windows-1252
+    [address_zip] => 89005
+    [first_name] => James
+    [mc_fee] => 4.01
+    [address_country_code] => US
+    [address_name] => James Beste
+    [notify_version] => 3.8
+    [custom] => 
+    [payer_status] => verified
+    [business] => burt@americanhomesonline.com
+    [address_country] => United States
+    [num_cart_items] => 1
+    [mc_handling1] => 0.00
+    [address_city] => Boulder City
+    [verify_sign] => AkB3d32qED3La8zGnWAJ5mRVrcK9AzJRn81EYZu0-xQhLf1m9aRTcAXS
+    [payer_email] => bestbetvacations@gmail.com
+    [mc_shipping1] => 0.00
+    [tax1] => 0.00
+    [txn_id] => 7KK8416901635213J
+    [payment_type] => instant
+    [last_name] => Beste
+    [address_state] => NV
+    [item_name1] => Payment to Burt Klein for invoice 0004
+    [receiver_email] => burt@americanhomesonline.com
+    [payment_fee] => 4.01
+    [quantity1] => 1
+    [receiver_id] => 4QUD4M265JPRN
+    [txn_type] => invoice_payment
+    [mc_gross_1] => 128.00
+    [mc_currency] => USD
+    [residence_country] => US
+    [transaction_subject] => 
+    [invoice_number] => 0004
+    [payment_gross] => 128.00
+    [ipn_track_id] => 819a474970952
+)
+
+
+22-02-15 21:11:08
+Array
+(
+    [mc_gross] => 128.00
+    [invoice] => INV2-YTXX-368T-53JB-P38N
+    [protection_eligibility] => Eligible
+    [address_status] => confirmed
+    [item_number1] => 
+    [payer_id] => R8KYPPS2DVX8S
+    [address_street] => 500 Lake Tahoe Ln
+    [payment_date] => 12:43:44 Feb 18, 2015 PST
+    [payment_status] => Completed
+    [invoice_id] => INV2-YTXX-368T-53JB-P38N
+    [charset] => windows-1252
+    [address_zip] => 89005
+    [first_name] => James
+    [mc_fee] => 4.01
+    [address_country_code] => US
+    [address_name] => James Beste
+    [notify_version] => 3.8
+    [custom] => 
+    [payer_status] => verified
+    [business] => burt@americanhomesonline.com
+    [address_country] => United States
+    [num_cart_items] => 1
+    [mc_handling1] => 0.00
+    [address_city] => Boulder City
+    [verify_sign] => AkB3d32qED3La8zGnWAJ5mRVrcK9AzJRn81EYZu0-xQhLf1m9aRTcAXS
+    [payer_email] => bestbetvacations@gmail.com
+    [mc_shipping1] => 0.00
+    [tax1] => 0.00
+    [txn_id] => 7KK8416901635213J
+    [payment_type] => instant
+    [last_name] => Beste
+    [address_state] => NV
+    [item_name1] => Payment to Burt Klein for invoice 0004
+    [receiver_email] => burt@americanhomesonline.com
+    [payment_fee] => 4.01
+    [quantity1] => 1
+    [receiver_id] => 4QUD4M265JPRN
+    [txn_type] => invoice_payment
+    [mc_gross_1] => 128.00
+    [mc_currency] => USD
+    [residence_country] => US
+    [transaction_subject] => 
+    [invoice_number] => 0004
+    [payment_gross] => 128.00
+    [ipn_track_id] => 819a474970952
+)
+
+

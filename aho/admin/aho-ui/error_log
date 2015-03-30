@@ -1,0 +1,3 @@
+[01-Nov-2014 06:57:27 UTC] PHP Warning:  mysql_query(): Access denied for user 'ahomain'@'localhost' (using password: NO) in /home/ahomain/public_html/admin/aho-ui/check_email.php on line 8
+[01-Nov-2014 06:57:27 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ahomain/public_html/admin/aho-ui/check_email.php on line 8
+[01-Nov-2014 06:57:27 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/admin/aho-ui/check_email.php on line 10

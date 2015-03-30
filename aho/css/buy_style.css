@@ -1,0 +1,345 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;	
+	outline:none;
+	text-decoration:none;
+}
+html{
+	height:100%;	
+}
+body{
+	height:100%;
+	line-height:normal;
+	background:#fff;
+	color:#333;	
+	font-size:13px;
+	font-family: 'Open Sans', sans-serif;
+	background:url(../images/brick_pattern.png);
+}
+img{
+	max-width:100%;
+	border:none;
+	vertical-align:middle;	
+	width:auto\9;
+	height:auto;
+}
+a{
+	transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+	color:#999;
+}
+.clear{
+	clear:both;	
+}
+.container{
+	width:1200px;
+	margin:0 auto;	
+}
+.inner-wrap{
+	width:900px;
+	padding:0 10px;	
+	margin:0 auto;
+}
+.form-title{ 
+	text-align:center;
+	margin:50px auto 60px;
+}
+
+.form-title h1{
+	color:#ff0000;
+	font-weight:normal;
+	font-size:32px;	
+	margin:0 20px 10px ;
+    text-transform: uppercase;
+	position:relative;
+}
+.form-title table td img{margin-top:-10px;}
+.form-title table{
+	margin:0 auto;	
+}
+.form-title h1 span{display:block;}
+.form-title h1 span:before{
+    color: #959698;
+    content: "";
+    display: inline-block;
+    font-family: times new roman;
+    font-size: 30px;
+    font-weight: normal;
+    text-align: left;
+    width: 30px;
+}
+.form-title h1 span:after{}
+.title-txt{
+	color:#666666;
+	font-size:16px;
+	line-height:22px;
+	margin:0 auto;	
+	width:92%;
+}
+.title-txt p{
+	margin-bottom:0;	
+}
+.form-title p span{
+	font-style:italic;	
+}
+.form-title table td:nth-child(2){
+	width:428px;	
+}
+.form-title table td:first-child{
+	text-align:right;	
+}
+.form-title table td:last-child{
+	text-align:left;	
+}
+.form-title p a{text-decoration:underline;}
+.form-title p a:hover{color:red;}
+.buy-form label{
+	color:#666666;
+	font-size:20px;	
+	display:block;
+	margin-bottom:17px;
+}
+.buy-form textarea{
+	width:830px;
+	line-height:59px;
+	border:2px solid #ececec;
+	border-radius:5px;	
+	padding: 0 27px;
+	color:#666;
+}
+.full input[type="text"]{
+	width:830px;
+	line-height:59px;
+	border:2px solid #ececec;
+	border-radius:5px;	
+	padding: 0 27px;
+	background:#fff;
+	color:#666;
+}
+.detail-field input[type="email"]{
+	width:830px;
+	line-height:59px;
+	border:2px solid #ececec;
+	border-radius:5px;	
+	padding: 0 27px;
+	background:#fff;
+	color:#666;
+}
+.detail-field input[type="password"]{
+	width:830px;
+	line-height:59px;
+	border:2px solid #ececec;
+	border-radius:5px;	
+	padding: 0 27px;
+	background:#fff;
+	color:#666;
+}
+input[type="text"]{
+	background:#fff;	
+}
+input[type="email"]{
+	background:#fff;	
+}
+input[type="password"]{
+	background:#fff;	
+}
+.full .select-wrapper{
+	width:832px;
+	line-height:59px;
+	border:2px solid #ececec;
+	border-radius:5px;	
+}
+.full .select-wrapper select {
+    width: 827px;
+}
+.select-wrapper select{
+	width:407px;
+	line-height:59px;
+	border:2px solid #ececec;
+	border-radius:5px;	
+	padding: 0 27px;
+	height:59px;
+}
+.half .select-wrapper{
+	width:98%;
+	height:63px;
+	border:2px solid #ececec;
+	border-radius:5px;	
+	line-height: 55px;
+}
+.sec.half .sm{width:98%;}
+.sec label .acer-sq{ 
+	color:#a6a6a6;
+    font-size: 13px;
+    line-height: 26px;
+    margin-left: 5px;
+}
+.small input[type="text"]{
+	width:46%;
+	line-height:59px;
+	border:2px solid #ececec;
+	border-radius:5px;	
+	padding: 0 27px;	
+	display:inline-block;
+	background:#fff;
+	margin-right:2px;
+}
+.buy-form textarea{
+	resize:none;
+	background:#fff;	
+	line-height:25px;
+	padding-top:10px;
+}
+.full::-moz-placeholder, .small::-moz-placeholder, .small .sm::-moz-placeholder {  
+   color: #b4b4b4;
+   font-size:18px;
+   font-family: 'open sans';  
+}
+textarea::-moz-placeholder{
+	font-size:16px;
+	color:#666666;	
+	font-family: 'open sans';
+}
+.sec{
+	float:left;	
+	width:50%;
+}
+.sec:first-child{margin-bottom:25px;}
+.form-row{
+	margin-bottom:25px;
+	clear:both;	
+}
+.submit-btn{float:left;}
+.submit-btn [type="submit"]{
+	background:url(../images/re-button.jpg) repeat center center  #f53b3b;
+	line-height:49px;
+	font-size:20px;
+	color:#fff;
+	border:1px solid #bb2929;	
+	padding:0 45px;
+	border-radius:0;
+	cursor:pointer;
+}
+.submit-btn [type="submit"]:hover{
+	background:url(../images/re-button-hover.jpg) repeat center center #bb2929;
+	border:1px solid ##f53b3b;
+}
+.required{
+	float:right;
+	margin-right: 10px;
+}
+.required a{
+	font-size:14px;
+	color:#f33636;
+}
+.required a:hover{color:#bb2929;}
+.form-row label span{    
+	color: #f33636;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 2px;
+    vertical-align: top;
+}
+.to{color:#666; margin-right:2px;}
+option {
+    color: #b4b4b4;
+    font-family: open sans;
+    font-size: 18px;
+    padding: 1px 20px;;
+}
+.title-txt > a {
+    text-decoration: underline;
+}
+.radio > input {
+    margin-right: 5px;
+}
+/***************************/
+.select-wrapper{
+		float: left;
+		display: inline-block;
+		border: 2px solid #ccc !important;            
+		background: url("../images/dd.png") no-repeat right center #fff;
+		cursor: pointer;
+	}
+/*	.select-wrapper, .select-wrapper select{
+		width: 331px;
+		height: 26px;
+		line-height: 26px;
+	}*/
+	.select-wrapper:hover{
+		background: url("../images/dd.png") no-repeat right center #fff;
+		border-color: #9ac8e9;
+	}
+	.select-wrapper .holder{
+		display: block;
+		margin: 0 35px 0 25px;
+		white-space: nowrap;            
+		overflow: hidden;
+		cursor: pointer;
+		position: relative;
+		color: #b4b4b4;
+        font-size:18px;
+        font-family: 'open sans'; 
+	}
+	.select-wrapper select{
+		margin: 0;
+		position: absolute;
+		z-index: 2;            
+		cursor: pointer;
+		outline: none;
+		opacity: 0;
+		/* CSS hacks for older browsers */
+		_noFocusLine: expression(this.hideFocus=true); 
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		filter: alpha(opacity=0);
+		-khtml-opacity: 0;
+		-moz-opacity: 0;
+	}
+    /* Let's Beautify Our Form */
+	form{
+        margin: 20px;
+    }
+
+input[type="text"]:hover, textarea:hover{
+	border-color: #9ac8e9;
+	background:#fff;
+}
+input[type="email"]:hover, textarea:hover{
+	border-color: #9ac8e9;
+	background:#fff;
+}
+input[type="password"]:hover, textarea:hover{
+	border-color: #9ac8e9;
+	background:#fff;
+}
+	
+input:focus {
+	outline-color: transparent;
+	border-color: #9ac8e9;
+	background:#fff;
+}
+textarea:focus {
+	outline-color: transparent;
+	border-color: #9ac8e9;
+	background:#fff;
+}	
+/******************Personal Detail****************************/
+.detail-field input[type="text"]{
+	width:100%;
+	background: none repeat scroll 0 0 #ffffff;
+    border: 2px solid #ececec;
+    border-radius: 5px;
+    color: #666666;
+    line-height: 59px;
+    padding: 0 27px;	
+}
+/**************************************************************/
+

@@ -1,0 +1,48 @@
+						
+			<header id="header">
+
+				<!-- Logo -->
+					&nbsp;&nbsp;<a href="index.php"><img src="../aho/ahowidget.png"></a>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><span style="color:#53abe0;">Welcome: <?php print $User_Name ?></span></li>
+							<?php
+									if($Check_Admin == 1){
+									?>
+									 
+									<li><a href="?Account=">Accounts</a></li>
+									
+									<?php
+									if($Broker == 1){
+									?>
+									
+									<li><a href="?Agents=">Agents</a></li>
+																											
+									<?php
+									}
+									?>
+									<?php
+									}
+									if($Check_Admin != 1){
+									?> 
+									<li><a href="?Page=">Login</a></li>
+									<?php
+									}
+									?>
+									<?php
+									if($Check_Admin != 1){
+									?>
+									<?php
+									}else{
+									?>
+									<li><a href="?Logout=1">Logout</a></li>
+									<?php
+									}
+									?>
+							<li><img width="200px" src="../../images/livesupport.jpg" style="padding:10px;"></li>						
+						</ul>
+					</nav>
+
+			</header>

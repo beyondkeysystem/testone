@@ -1,0 +1,8 @@
+RewriteEngine Off
+RewriteCond %{REQUEST_URI} \.(jpg|jpeg|gif|png)$ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .*$ http://static.americanhomesonline.com/img/nophoto.png [L]
+RewriteRule ^(.*?)-mls\.html$ /details.php
+
+

@@ -1,0 +1,128 @@
+.whitecolor{color: #fff;}
+.meg-validation {
+    position: relative;
+    display: block;
+}
+.captcha_test {
+    position: relative;
+}
+.selectedCat li{margin-right: 5px;}
+#myModal3{position: fixed;}
+.magazinetabcls{color: #fff;}
+
+resp-tabs-list-new li{
+    display: inline-block;
+    
+}
+.resp-tabs-list-new:after {
+  border-bottom: 1px solid #6d3925;
+  bottom: -2px;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  width: 100%;
+}
+.resp-tabs-list-new{
+  background: none repeat scroll 0 0 #1f1817;
+  height: 66px;
+  position: relative;
+  padding: 0;
+}
+
+.resp-tabs-list-new li a {
+    border: 1px solid #1f1817;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    font-family: "OratorStd";
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 34px;
+    list-style: outside none none;
+    margin: 15px 0 0 20px;
+    padding: 0 15px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.resp-tabs-list-new li a.active {
+    background-color: #474444;
+    border: 1px solid #595453 !important;
+    border-radius: 5px;
+}
+
+.author-left ul li a i.active {
+    color: #f1553c;
+}
+
+.detail-body .modal{
+top:60px;
+}
+
+h2.resp-accordion{
+    display: none !important;
+}
+
+.ui-carousel .ui-carousel-items .ui-carousel-item img {
+    max-height: 100%;
+    max-width: 690px;
+}
+.full-width .ui-carousel .ui-carousel-next{
+    right: 0 !important;
+    transition: none;
+}
+.ui-carousel .ui-carousel-next{
+    transition:  none;
+}
+
+.error-msg-sign p {
+    font-size: 13px;
+    line-height: 15px;
+}
+
+
+.edit_image {
+  margin: auto;
+  padding-bottom: 15px;
+  width: 80%;
+}
+.edit-img-form {
+  display: inline-block;
+  position: relative;
+}
+
+.edit-img-form input {
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 175px;
+}
+.edit-img-form img{
+    width: 156px;
+    height: 168px;
+}
+.publis-row::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/*.s-icons {
+  bottom: -17px;
+  display: inline-block;
+  height: 50px;
+  position: absolute;
+  right: -190px;
+  vertical-align: middle;
+  
+  z-index: 9;
+}*/
+.s-icons {
+  bottom: 80px;
+  display: inline-block;
+  height: 50px;
+  position: fixed;
+  right: 572px;
+  vertical-align: middle;
+  z-index: 9;
+}

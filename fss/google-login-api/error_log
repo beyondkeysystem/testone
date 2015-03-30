@@ -1,0 +1,6 @@
+[28-Jan-2015 09:59:03 UTC] PHP Fatal error:  Uncaught exception 'Google_AuthException' with message 'Error fetching OAuth2 access token, message: 'invalid_client'' in /data/home/pdcisinl/public_html/fss/google-login-api/src/auth/Google_OAuth2.php:113
+Stack trace:
+#0 /data/home/pdcisinl/public_html/fss/google-login-api/src/Google_Client.php(131): Google_OAuth2->authenticate(Array, '4/3ucYLb4HxPliE...')
+#1 /data/home/pdcisinl/public_html/fss/google-login-api/index.php(46): Google_Client->authenticate('4/3ucYLb4HxPliE...')
+#2 {main}
+  thrown in /data/home/pdcisinl/public_html/fss/google-login-api/src/auth/Google_OAuth2.php on line 113

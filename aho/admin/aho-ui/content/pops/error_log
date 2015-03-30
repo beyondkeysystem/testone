@@ -1,0 +1,13 @@
+[12-Jun-2014 07:12:30 UTC] PHP Notice:  Undefined variable: Connect_Failed in /home/ahomain/public_html/admin/aho-ui/connect.php on line 23
+[12-Jun-2014 07:12:30 UTC] PHP Notice:  Undefined index: full_account in /home/ahomain/public_html/admin/aho-ui/functions.php on line 146
+[12-Jun-2014 07:12:30 UTC] PHP Notice:  Undefined variable: Reg in /home/ahomain/public_html/admin/aho-ui/functions.php on line 165
+[12-Jun-2014 07:12:30 UTC] PHP Notice:  Undefined variable: Login in /home/ahomain/public_html/admin/aho-ui/functions.php on line 169
+[12-Jun-2014 07:12:30 UTC] PHP Notice:  Undefined variable: AdminLogin in /home/ahomain/public_html/admin/aho-ui/functions.php on line 172
+[12-Jun-2014 07:12:30 UTC] PHP Notice:  Undefined variable: Logout in /home/ahomain/public_html/admin/aho-ui/functions.php on line 176
+[12-Jun-2014 07:12:30 UTC] PHP Notice:  Undefined variable: Remove in /home/ahomain/public_html/admin/aho-ui/content/pops/remove_agent.php on line 24
+[12-Jun-2014 07:12:33 UTC] PHP Notice:  Undefined variable: Connect_Failed in /home/ahomain/public_html/admin/aho-ui/connect.php on line 23
+[12-Jun-2014 07:12:33 UTC] PHP Notice:  Undefined index: full_account in /home/ahomain/public_html/admin/aho-ui/functions.php on line 146
+[12-Jun-2014 07:12:33 UTC] PHP Notice:  Undefined variable: Reg in /home/ahomain/public_html/admin/aho-ui/functions.php on line 165
+[12-Jun-2014 07:12:33 UTC] PHP Notice:  Undefined variable: Login in /home/ahomain/public_html/admin/aho-ui/functions.php on line 169
+[12-Jun-2014 07:12:33 UTC] PHP Notice:  Undefined variable: AdminLogin in /home/ahomain/public_html/admin/aho-ui/functions.php on line 172
+[12-Jun-2014 07:12:33 UTC] PHP Notice:  Undefined variable: Logout in /home/ahomain/public_html/admin/aho-ui/functions.php on line 176

@@ -1,0 +1,1153 @@
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file(): http://maps.google.com/maps/api/geocode/xml?address=10484%20Pioneer%20Park%2C%2BLas%20Vegas%2C%2B702-561-7968%2C%2B&amp;sensor=false:2: parser error : AttValue: &quot; or ' expected in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file(): &lt;html lang=en&gt; in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file():            ^ in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file(): http://maps.google.com/maps/api/geocode/xml?address=10484%20Pioneer%20Park%2C%2BLas%20Vegas%2C%2B702-561-7968%2C%2B&amp;sensor=false:2: parser error : attributes construct error in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file(): &lt;html lang=en&gt; in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file():            ^ in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file(): http://maps.google.com/maps/api/geocode/xml?address=10484%20Pioneer%20Park%2C%2BLas%20Vegas%2C%2B702-561-7968%2C%2B&amp;sensor=false:2: parser error : Couldn't find end of Start Tag html line 2 in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file(): &lt;html lang=en&gt; in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file():            ^ in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file(): http://maps.google.com/maps/api/geocode/xml?address=10484%20Pioneer%20Park%2C%2BLas%20Vegas%2C%2B702-561-7968%2C%2B&amp;sensor=false:2: parser error : Extra content at the end of the document in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file(): &lt;html lang=en&gt; in /home/ahomain/public_html/aho/geo.php on line 23
+[10-Sep-2014 12:22:50 UTC] PHP Warning:  simplexml_load_file():            ^ in /home/ahomain/public_html/aho/geo.php on line 23
+[18-Sep-2014 10:53:17 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:17 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:17 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:17 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:17 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:17 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:17 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:22 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:22 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:22 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:22 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:22 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:22 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 10:53:22 UTC] PHP Warning:  Cannot use a scalar value as an array in /home/ahomain/public_html/aho/send_request.php on line 217
+[18-Sep-2014 12:22:51 UTC] PHP Warning:  Creating default object from empty value in /home/ahomain/public_html/aho/send_request.php on line 227
+[18-Sep-2014 12:22:51 UTC] PHP Fatal error:  Cannot access empty property in /home/ahomain/public_html/aho/send_request.php on line 227
+[20-Sep-2014 07:11:42 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +9755832755, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(277): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[20-Sep-2014 07:14:37 UTC] PHP Parse error:  syntax error, unexpected '$client' (T_VARIABLE) in /home/ahomain/public_html/aho/send_request.php on line 268
+[20-Sep-2014 07:15:45 UTC] PHP Parse error:  syntax error, unexpected '$client' (T_VARIABLE) in /home/ahomain/public_html/aho/send_request.php on line 268
+[22-Sep-2014 09:32:32 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +9755832755, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(602): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[22-Sep-2014 09:35:35 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +9755832755, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(602): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[24-Sep-2014 12:17:29 UTC] PHP Parse error:  syntax error, unexpected '" style='width: 95%;' id='Name' (T_CONSTANT_ENCAPSED_STRING) in /home/ahomain/public_html/aho/aho.php on line 317
+[24-Sep-2014 12:32:29 UTC] PHP Parse error:  syntax error, unexpected '" ' (T_CONSTANT_ENCAPSED_STRING) in /home/ahomain/public_html/aho/aho.php on line 321
+[24-Sep-2014 13:30:45 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[24-Sep-2014 13:55:45 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(637): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[25-Sep-2014 12:34:12 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(635): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Sep-2014 09:57:09 UTC] PHP Warning:  fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number in /home/ahomain/public_html/aho/class.smtp.php on line 122
+[29-Sep-2014 09:57:09 UTC] PHP Warning:  fsockopen(): Failed to enable crypto in /home/ahomain/public_html/aho/class.smtp.php on line 122
+[29-Sep-2014 09:57:09 UTC] PHP Warning:  fsockopen(): unable to connect to tls://mailtrap.io:465 (Unknown error) in /home/ahomain/public_html/aho/class.smtp.php on line 122
+[29-Sep-2014 10:29:21 UTC] PHP Warning:  fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:SSL3_GET_RECORD:wrong version number in /home/ahomain/public_html/aho/class.smtp.php on line 122
+[29-Sep-2014 10:29:21 UTC] PHP Warning:  fsockopen(): Failed to enable crypto in /home/ahomain/public_html/aho/class.smtp.php on line 122
+[29-Sep-2014 10:29:21 UTC] PHP Warning:  fsockopen(): unable to connect to tls://mailtrap.io:465 (Unknown error) in /home/ahomain/public_html/aho/class.smtp.php on line 122
+[29-Sep-2014 12:49:11 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(706): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Sep-2014 14:49:23 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ahomain/public_html/aho/send_request.php on line 414
+[30-Sep-2014 05:49:16 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(540): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[30-Sep-2014 08:50:30 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number (545)645-6415 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(540): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[30-Sep-2014 09:00:22 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number (241)245-4254 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(540): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[30-Sep-2014 13:47:12 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'A 'To' phone number is required.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(527): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Oct-2014 08:16:18 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 1234567890 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(523): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Oct-2014 10:21:35 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 418
+[01-Oct-2014 10:21:46 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 418
+[01-Oct-2014 10:44:13 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 418
+[01-Oct-2014 11:03:05 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number (233)769-77 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(539): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Oct-2014 11:18:38 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 1234567890 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(523): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Oct-2014 11:30:23 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number (124)545-4343 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(539): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Oct-2014 11:33:58 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number (364)882-822 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(539): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Oct-2014 11:44:49 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number (123)456-789 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(539): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Oct-2014 11:54:38 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1234567890 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(526): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Oct-2014 11:55:56 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 1234567890 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(526): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[02-Oct-2014 19:05:02 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 418
+[03-Oct-2014 04:43:28 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 418
+[03-Oct-2014 04:44:05 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 418
+[03-Oct-2014 04:50:11 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 418
+[03-Oct-2014 04:50:25 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 418
+[03-Oct-2014 12:04:18 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ahomain/public_html/aho/aho.php on line 232
+[03-Oct-2014 12:04:33 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ahomain/public_html/aho/aho.php on line 232
+[03-Oct-2014 12:04:37 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ahomain/public_html/aho/aho.php on line 232
+[03-Oct-2014 14:04:01 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ahomain/public_html/aho/aho.php on line 310
+[03-Oct-2014 14:04:08 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ahomain/public_html/aho/aho.php on line 310
+[04-Oct-2014 03:08:29 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 418
+[04-Oct-2014 12:05:26 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 275
+[04-Oct-2014 12:05:31 UTC] PHP Fatal error:  Call to undefined function parse_int() in /home/ahomain/public_html/aho/send_request.php on line 275
+[04-Oct-2014 12:06:40 UTC] PHP Fatal error:  Call to undefined function int() in /home/ahomain/public_html/aho/send_request.php on line 275
+[08-Oct-2014 13:03:22 UTC] PHP Fatal error:  Cannot break/continue 1 level in /home/ahomain/public_html/aho/send_request.php on line 98
+[08-Oct-2014 14:41:08 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 919589777791 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(561): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[08-Oct-2014 14:45:16 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 9425354014 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(561): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[08-Oct-2014 15:01:25 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 9977755537 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(581): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[10-Oct-2014 12:54:52 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +19425354014 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(566): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[10-Oct-2014 13:48:26 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(591): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[10-Oct-2014 13:50:31 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number ++1702 300 55 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(567): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[10-Oct-2014 13:51:23 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +12233323213 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(591): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[10-Oct-2014 14:08:18 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number ++1702 273 88 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(567): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[10-Oct-2014 14:22:49 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 34675 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(591): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[10-Oct-2014 14:23:46 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 33437 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(591): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[10-Oct-2014 14:26:53 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +dfgdsfg is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(591): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[10-Oct-2014 14:27:06 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number 88882 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(591): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[13-Oct-2014 06:44:59 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 147
+[13-Oct-2014 06:44:59 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 147
+[13-Oct-2014 06:45:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:147) in /home/ahomain/public_html/aho/send_request.php on line 209
+[13-Oct-2014 08:39:11 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number ++11234556789 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(567): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[13-Oct-2014 08:45:26 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +11234556789 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(567): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[13-Oct-2014 11:03:08 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 165
+[13-Oct-2014 11:03:08 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 165
+[13-Oct-2014 11:03:08 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 239
+[13-Oct-2014 11:03:08 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 239
+[13-Oct-2014 11:03:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:165) in /home/ahomain/public_html/aho/send_request.php on line 276
+[13-Oct-2014 11:05:00 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 165
+[13-Oct-2014 11:05:00 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 165
+[13-Oct-2014 11:05:00 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 239
+[13-Oct-2014 11:05:00 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 239
+[13-Oct-2014 11:05:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:20) in /home/ahomain/public_html/aho/send_request.php on line 276
+[13-Oct-2014 11:12:07 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 167
+[13-Oct-2014 11:12:07 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 167
+[13-Oct-2014 11:12:07 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 241
+[13-Oct-2014 11:12:07 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 241
+[13-Oct-2014 11:12:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:167) in /home/ahomain/public_html/aho/send_request.php on line 278
+[13-Oct-2014 11:12:12 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 167
+[13-Oct-2014 11:12:12 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 167
+[13-Oct-2014 11:12:12 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 241
+[13-Oct-2014 11:12:12 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 241
+[13-Oct-2014 11:12:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:167) in /home/ahomain/public_html/aho/send_request.php on line 278
+[13-Oct-2014 11:12:22 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 167
+[13-Oct-2014 11:12:22 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 167
+[13-Oct-2014 11:12:22 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 241
+[13-Oct-2014 11:12:22 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 241
+[13-Oct-2014 11:12:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:167) in /home/ahomain/public_html/aho/send_request.php on line 278
+[13-Oct-2014 11:12:26 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 167
+[13-Oct-2014 11:12:26 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 167
+[13-Oct-2014 11:12:26 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 241
+[13-Oct-2014 11:12:26 UTC] PHP Warning:  money_format() expects parameter 2 to be double, string given in /home/ahomain/public_html/aho/send_request.php on line 241
+[13-Oct-2014 11:12:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:167) in /home/ahomain/public_html/aho/send_request.php on line 278
+[13-Oct-2014 13:03:08 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +19425354014 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(656): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[13-Oct-2014 13:10:14 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +19425354014 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(658): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[13-Oct-2014 13:14:18 UTC] PHP Parse error:  syntax error, unexpected ''</td>' (T_ENCAPSED_AND_WHITESPACE) in /home/ahomain/public_html/aho/send_request.php on line 552
+[13-Oct-2014 13:15:16 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +19425354014 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(658): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[13-Oct-2014 13:19:33 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' phone number: +919752378388, is not currently reachable using the 'From' phone number: +17024255249 via SMS.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(658): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[13-Oct-2014 13:19:51 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' phone number: +919752378388, is not currently reachable using the 'From' phone number: +17024255249 via SMS.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(658): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[13-Oct-2014 21:59:15 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The concatenated message body exceeds the 1600 character limit.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(276): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[13-Oct-2014 22:04:56 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The concatenated message body exceeds the 1600 character limit.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(658): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[14-Oct-2014 14:05:07 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(596): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[14-Oct-2014 14:06:14 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +245356777556, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(620): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[14-Oct-2014 14:07:31 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +55555555555, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(620): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[15-Oct-2014 08:38:41 US/Central] PHP Fatal error:  Call to a member function generateToken() on a non-object in /home/ahomain/public_html/aho/aho.php on line 1001
+[16-Oct-2014 03:53:36 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 300 55 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(604): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[16-Oct-2014 03:59:07 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 469 68 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(609): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[16-Oct-2014 07:40:05 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 300 55 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(625): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[16-Oct-2014 07:42:10 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 300 55 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(625): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[16-Oct-2014 09:36:12 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 300 55 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(624): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file(): http://maps.google.com/maps/api/geocode/xml?address=6052%20Aripeka%20%2C%2BHenderson%2C%2BNV%2C%2B89011&amp;sensor=false:2: parser error : AttValue: &quot; or ' expected in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file(): &lt;html lang=en&gt; in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file():            ^ in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file(): http://maps.google.com/maps/api/geocode/xml?address=6052%20Aripeka%20%2C%2BHenderson%2C%2BNV%2C%2B89011&amp;sensor=false:2: parser error : attributes construct error in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file(): &lt;html lang=en&gt; in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file():            ^ in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file(): http://maps.google.com/maps/api/geocode/xml?address=6052%20Aripeka%20%2C%2BHenderson%2C%2BNV%2C%2B89011&amp;sensor=false:2: parser error : Couldn't find end of Start Tag html line 2 in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file(): &lt;html lang=en&gt; in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file():            ^ in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file(): http://maps.google.com/maps/api/geocode/xml?address=6052%20Aripeka%20%2C%2BHenderson%2C%2BNV%2C%2B89011&amp;sensor=false:2: parser error : Extra content at the end of the document in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file(): &lt;html lang=en&gt; in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 03:50:22 UTC] PHP Warning:  simplexml_load_file():            ^ in /home/ahomain/public_html/aho/geo.php on line 23
+[17-Oct-2014 13:53:08 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[17-Oct-2014 13:58:43 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +55555555555, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[17-Oct-2014 14:06:41 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[18-Oct-2014 02:25:15 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[18-Oct-2014 02:25:49 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[18-Oct-2014 02:30:03 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +11234567890 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[20-Oct-2014 00:23:40 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +11234567890 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(624): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[27-Oct-2014 09:26:43 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[27-Oct-2014 09:40:06 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[27-Oct-2014 09:54:30 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(618): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[27-Oct-2014 10:11:39 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[27-Oct-2014 10:30:12 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +5554567889, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[27-Oct-2014 14:01:41 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 326 17 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(618): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[28-Oct-2014 04:12:56 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +11234567890 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[28-Oct-2014 05:43:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/contact_us.php:2) in /home/ahomain/public_html/aho/contact_us.php on line 127
+[28-Oct-2014 08:11:21 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +915555555555, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[28-Oct-2014 01:20:00 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +19009900056 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[28-Oct-2014 01:20:52 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +19009900056 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[28-Oct-2014 01:21:51 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +19009900056 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[28-Oct-2014 06:15:07 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +19617069048 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Oct-2014 11:19:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:645) in /home/ahomain/public_html/aho/send_request.php on line 655
+[29-Oct-2014 11:21:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:645) in /home/ahomain/public_html/aho/send_request.php on line 655
+[29-Oct-2014 11:22:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:645) in /home/ahomain/public_html/aho/send_request.php on line 655
+[29-Oct-2014 11:29:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:645) in /home/ahomain/public_html/aho/send_request.php on line 655
+[30-Oct-2014 05:32:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:647) in /home/ahomain/public_html/aho/send_request.php on line 657
+[31-Oct-2014 07:39:12 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +55555555555, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[31-Oct-2014 08:11:49 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Nov-2014 06:26:41 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Nov-2014 06:28:10 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +91555555555, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Nov-2014 07:06:16 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +5555555555, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(638): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Nov-2014 14:42:34 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +15555759965 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(639): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[12-Nov-2014 02:25:13 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 273 88 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(630): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[12-Nov-2014 13:01:20 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(626): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[13-Nov-2014 12:29:42 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7026007276, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(626): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[14-Nov-2014 22:09:02 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +19584499912 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[14-Nov-2014 22:09:36 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +19584499919 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[14-Nov-2014 22:10:07 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +0919584499919 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[14-Nov-2014 22:10:40 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +009584499919 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[14-Nov-2014 22:11:55 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +15555555555 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[27-Nov-2014 22:12:39 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 273 88 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(629): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[28-Nov-2014 06:12:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[28-Nov-2014 06:17:05 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 273 88 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(630): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Nov-2014 02:13:16 America/Los_Angeles] PHP Fatal error:  Class 'Services_Twilio' not found in /home/ahomain/public_html/aho/aho.php on line 490
+[29-Nov-2014 02:16:12 America/Los_Angeles] PHP Fatal error:  Class 'Services_Twilio' not found in /home/ahomain/public_html/aho/aho.php on line 490
+[29-Nov-2014 11:31:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ahomain/public_html/aho/aho.php on line 222
+[29-Nov-2014 11:53:25 UTC] PHP Parse error:  syntax error, unexpected 'to' (T_STRING), expecting ')' in /home/ahomain/public_html/aho/aho.php on line 530
+[29-Nov-2014 13:18:27 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(888): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Nov-2014 13:28:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ahomain/public_html/aho/aho.php on line 1297
+[29-Nov-2014 13:28:41 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ahomain/public_html/aho/aho.php on line 1297
+[29-Nov-2014 13:28:58 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/ahomain/public_html/aho/aho.php on line 612
+[29-Nov-2014 13:29:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ahomain/public_html/aho/aho.php on line 1296
+[29-Nov-2014 13:30:03 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(888): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Nov-2014 13:31:26 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(888): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Nov-2014 13:39:18 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(888): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Nov-2014 13:42:32 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(888): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Nov-2014 13:42:49 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(888): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Nov-2014 13:43:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ahomain/public_html/aho/aho.php on line 1097
+[29-Nov-2014 13:44:17 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ahomain/public_html/aho/aho.php on line 1097
+[29-Nov-2014 13:44:25 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(888): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Nov-2014 13:44:37 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(888): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[29-Nov-2014 13:49:42 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ahomain/public_html/aho/aho.php on line 1305
+[29-Nov-2014 14:45:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:11) in /home/ahomain/public_html/aho/aho.php on line 1067
+[30-Nov-2014 13:08:02 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 326 17 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(629): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[30-Nov-2014 21:08:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[30-Nov-2014 14:44:20 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +17926126423 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[30-Nov-2014 14:45:21 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 326 17 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(629): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[30-Nov-2014 23:51:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[30-Nov-2014 18:30:21 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 326 17 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(629): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Dec-2014 05:37:05 UTC] PHP Warning:  mysql_query(): Access denied for user 'ahomain'@'localhost' (using password: NO) in /home/ahomain/public_html/aho/aho.php on line 7
+[01-Dec-2014 05:37:05 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ahomain/public_html/aho/aho.php on line 7
+[01-Dec-2014 05:38:19 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[01-Dec-2014 05:38:19 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[01-Dec-2014 05:38:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 440
+[01-Dec-2014 05:48:39 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[01-Dec-2014 05:48:39 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[01-Dec-2014 05:48:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 440
+[01-Dec-2014 05:53:18 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[01-Dec-2014 05:53:18 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[01-Dec-2014 05:53:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 440
+[01-Dec-2014 05:58:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[01-Dec-2014 05:58:32 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[01-Dec-2014 05:58:32 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 440
+[01-Dec-2014 06:00:26 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[01-Dec-2014 06:00:26 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[01-Dec-2014 06:00:26 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 443
+[01-Dec-2014 22:00:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[03-Dec-2014 01:45:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[03-Dec-2014 17:10:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[04-Dec-2014 05:18:48 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[04-Dec-2014 05:18:48 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[04-Dec-2014 05:18:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 443
+[04-Dec-2014 07:00:59 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ahomain/public_html/aho/aho.php on line 402
+[04-Dec-2014 07:01:29 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ahomain/public_html/aho/aho.php on line 401
+[04-Dec-2014 07:01:56 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ahomain/public_html/aho/aho.php on line 401
+[04-Dec-2014 09:32:46 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[04-Dec-2014 09:32:46 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[04-Dec-2014 09:32:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 445
+[04-Dec-2014 09:34:43 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[04-Dec-2014 09:34:43 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[04-Dec-2014 09:34:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 445
+[04-Dec-2014 09:36:52 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[04-Dec-2014 09:36:52 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[04-Dec-2014 09:36:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 445
+[04-Dec-2014 09:37:30 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[04-Dec-2014 09:37:30 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[04-Dec-2014 09:37:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 445
+[04-Dec-2014 09:39:17 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[04-Dec-2014 09:39:17 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[04-Dec-2014 09:39:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 446
+[04-Dec-2014 09:40:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ahomain/public_html/aho/aho.php on line 141
+[04-Dec-2014 09:42:30 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[04-Dec-2014 09:42:30 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[04-Dec-2014 09:42:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 444
+[04-Dec-2014 09:45:44 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 254
+[04-Dec-2014 09:45:44 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 269
+[04-Dec-2014 09:45:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 444
+[04-Dec-2014 09:47:44 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/aho.php(222): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[05-Dec-2014 08:57:10 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[05-Dec-2014 08:57:57 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +716673136639824, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(418): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[05-Dec-2014 16:58:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[10-Dec-2014 07:21:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[11-Dec-2014 02:11:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[14-Dec-2014 20:17:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[17-Dec-2014 04:15:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[19-Dec-2014 13:56:24 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +9727689458, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[23-Dec-2014 11:20:57 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[23-Dec-2014 11:21:12 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number + is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[27-Dec-2014 11:27:26 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The concatenated message body exceeds the 1600 character limit.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/contact_us.php(69): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[28-Dec-2014 14:49:40 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7028453476, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[28-Dec-2014 14:49:55 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7028453476, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[28-Dec-2014 22:51:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[28-Dec-2014 14:53:47 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7028453476, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(418): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[01-Jan-2015 20:43:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[03-Jan-2015 05:30:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[05-Jan-2015 07:59:12 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7025177983, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[12-Jan-2015 02:50:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[12-Jan-2015 11:47:02 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +6195172274, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[14-Jan-2015 02:58:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[14-Jan-2015 02:58:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[20-Jan-2015 00:01:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[20-Jan-2015 05:27:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[20-Jan-2015 18:20:43 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7025555555, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[20-Jan-2015 18:21:03 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7024168947, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[20-Jan-2015 18:21:29 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7024168947, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[21-Jan-2015 06:47:21 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7022737099, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[21-Jan-2015 07:54:44 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7022737099, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(418): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[21-Jan-2015 15:54:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[21-Jan-2015 15:55:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[21-Jan-2015 22:27:32 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7026286904, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[21-Jan-2015 22:29:08 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7026286904, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[22-Jan-2015 06:38:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[22-Jan-2015 18:47:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[26-Jan-2015 20:59:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[28-Jan-2015 11:19:08 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The 'To' number +1702 273 88 is not a valid phone number.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(629): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[06-Feb-2015 18:39:32 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7026012224, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[06-Feb-2015 18:40:53 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +7026012224, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[15-Feb-2015 20:49:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[15-Feb-2015 20:36:45 America/Los_Angeles] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'To number: +8176376993, is not a mobile number' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/send_request.php(264): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[17-Feb-2015 11:41:56 UTC] PHP Fatal error:  Uncaught exception 'Services_Twilio_RestException' with message 'The concatenated message body exceeds the 1600 character limit.' in /home/ahomain/public_html/aho/tw/Services/Twilio.php:305
+Stack trace:
+#0 /home/ahomain/public_html/aho/tw/Services/Twilio.php(229): Services_Twilio->_processResponse(Array)
+#1 /home/ahomain/public_html/aho/tw/Services/Twilio/ListResource.php(92): Services_Twilio->createData('/2010-04-01/Acc...', Array)
+#2 /home/ahomain/public_html/aho/tw/Services/Twilio/Rest/Messages.php(24): Services_Twilio_ListResource->_create(Array)
+#3 /home/ahomain/public_html/aho/contact_us.php(69): Services_Twilio_Rest_Messages->create(Array)
+#4 {main}
+  thrown in /home/ahomain/public_html/aho/tw/Services/Twilio.php on line 305
+[04-Mar-2015 00:19:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/send_request.php:648) in /home/ahomain/public_html/aho/send_request.php on line 658
+[04-Mar-2015 08:13:34 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 255
+[04-Mar-2015 08:13:34 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 270
+[04-Mar-2015 08:13:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 445
+[19-Mar-2015 16:31:36 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 255
+[19-Mar-2015 16:31:36 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/ahomain/public_html/aho/aho.php on line 270
+[19-Mar-2015 16:31:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ahomain/public_html/aho/aho.php:1) in /home/ahomain/public_html/aho/aho.php on line 445
