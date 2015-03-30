@@ -1,0 +1,38 @@
+-- phpMyAdmin SQL Dump
+-- version 3.5.2.2
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Nov 13, 2014 at 11:04 AM
+-- Server version: 5.5.27
+-- PHP Version: 5.4.7
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `pdcisinl_myviko`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user_share_limits`
+--
+
+CREATE TABLE IF NOT EXISTS `user_share_limits` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `share_limits` int(11) NOT NULL COMMENT '(in percentage)',
+  `property_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+--
+-- Dumping data for table `user_share_limits`
+--
+
+INSERT INTO `user_share_limits` (`id`, `user_id`, `share_limits`, `property_id`) VALUES
+(1, 66, 5, 9),
+(2, 66, 50, 10);
+

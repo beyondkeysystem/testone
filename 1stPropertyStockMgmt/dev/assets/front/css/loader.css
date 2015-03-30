@@ -1,0 +1,27 @@
+.noUi-target{box-shadow:none;}
+.noUi-background {
+    background: none repeat scroll 0 0 #C4C4C4;
+    box-shadow:none;
+	border:none;
+}
+.noUi-horizontal{height:5px;}
+.noUi-handle {
+    background: none repeat scroll 0 0 #494091;
+    border: medium none;
+    border-radius: 50%;
+    box-shadow: none;
+    cursor: default;
+}
+.noUi-origin{border-radius:none !important; height:4px;}
+.noUi-connect {
+    background: none repeat scroll 0 0 #494091;
+    box-shadow: 0 0 3px rgba(51, 51, 51, 0.45) inset;
+    transition: background 450ms ease 0s;
+}
+.noUi-horizontal .noUi-handle {
+    height: 8px;
+    left: -7px;
+    top: -2px;
+    width: 8px;
+}
+.noUi-handle:after, .noUi-handle:before{background:none;}

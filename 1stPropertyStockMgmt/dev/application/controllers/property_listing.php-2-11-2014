@@ -1,0 +1,120 @@
+<?php
+class Property_listing extends CI_Controller {
+
+  /**
+    * Responsable for auto load the model
+    * @return void
+    */
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->model('manufacturers_model');
+        $this->load->model('property_type_model');
+	    $this->load->model('property_model');
+        if($this->session->userdata('language')==''){
+			$this->lang->load('en', 'polish');
+		}
+		else{
+            $this->lang->load($this->session->userdata('language'), 'polish');
+		}
+    }
+	
+	function langswitch()
+    {
+        $this->session->set_userdata('language',$this->uri->segment(3));
+        redirect($_SERVER['HTTP_REFERER']);
+    }
+	
+    /**
+    * Check if the user is logged in, if he's not, 
+    * send him to the login page
+    * @return void
+    */	
+	function index()
+	{
+		
+		
+		if($this->session->userdata('is_logged_in') && $this->session->userdata('type') == 'admin'){
+			redirect('admin/property');
+        }
+		elseif($this->session->userdata('is_logged_in') && $this->session->userdata('type') == 'user'){
+			//redirect('dashboard');
+		}
+		
+		
+        //pagination settings
+        $config3['per_page'] = 5;
+        $config3['base_url'] = base_url().'property_listing';
+        $config3['use_page_numbers'] = TRUE;
+        $config3['num_links'] = 20;
+        $config3['full_tag_open'] = ' <ul class="pagi-nation">';
+        $config3['full_tag_close'] = '</ul>';
+        $config3['num_tag_open'] = '<li>';
+        $config3['num_tag_close'] = '</li>';
+        $config3['cur_tag_open'] = '<li class="active"><a>';
+        $config3['cur_tag_close'] = '</a></li>';
+
+        $config3['uri_segment'] = 2;
+        //limit end
+        $page3 = $this->uri->segment(2);
+        
+
+        //math to get the initial record to be select in the database
+        $limit_end3 = ($page3 * $config3['per_page']) - $config3['per_page'];
+        if ($limit_end3 < 0){
+            $limit_end3 = 0;
+        }
+		
+		// Form Post
+		if ($this->input->server('REQUEST_METHOD') === 'POST' || $this->session->userdata('property_location')!='' || $this->session->userdata('property_ref')!='' || $this->session->userdata('property_type')!='' || $this->session->userdata('property_status')!='' || $this->session->userdata('property_bedrooms')!='' || $this->session->userdata('property_bathrooms')!='' || $this->session->userdata('price')!='')
+        {
+			$property_location = $filter_session_data['property_location'] = $this->input->post('property_location');  
+			$property_ref = $filter_session_data['property_ref'] = $this->input->post('property_ref');
+			$property_type = $filter_session_data['property_type'] = $this->input->post('property_type');
+			$property_status = $filter_session_data['property_status'] = $this->input->post('property_status');
+			$property_bedrooms = $filter_session_data['property_bedrooms'] = $this->input->post('property_bedrooms');
+			$property_bathrooms = $filter_session_data['property_bathrooms'] = $this->input->post('property_bathrooms');
+			$price = $filter_session_data['price'] = $this->input->post('price');
+			$get_property_information = $this->property_model->get_property_information( $price, $property_bedrooms, $property_location, $property_ref, $property_type, $property_status, $property_bathrooms, $config3['per_page'],$limit_end3);
+			$data['property_information'] = $get_property_information['result_array'];
+			$data['count_property_information']= $get_property_information['num_rows'];
+            $config3['total_rows'] = $data['count_property_information'];
+			
+			$this->session->set_userdata($filter_session_data);
+		}
+		else{
+			$filter_session_data = $this->session->userdata('filter_session_data');
+			unset($filter_session_data[0]);
+			$this->session->set_userdata('filter_session_data',$filter_session_data);
+			$filter_session_data=0;
+			
+			$get_property_information = $this->property_model->get_all_property_information( $config3['per_page'],$limit_end3);
+			$data['property_information'] = $get_property_information['result_array'];
+			$data['count_property_information']= $get_property_information['num_rows'];
+            $config3['total_rows'] = $data['count_property_information'];
+			$filter_session_data=0;
+		}
+		//$config3['total_rows'] = 8;
+		//initializate the panination helper 
+        $this->pagination->initialize($config3);
+		
+		//Search Directory Data
+        $data['property'] = $this->property_model->get_property();          
+        $data['property_status'] = $this->property_model->get_property_status();
+	    $data['property_baths'] = $this->property_model->get_property_baths();
+	    $data['property_beds'] = $this->property_model->get_property_beds();  
+        $data['property_type'] = $this->property_type_model->get_property_type(); 
+		$data['sess'] = $this->session->userdata;
+		$data['filter_session_data']=$filter_session_data;
+		$data['main_content'] = 'property_listing/index';
+		$this->load->view('includes/front/template', $data);
+	}
+	
+	function property_details()
+	{
+	        $id = $this->uri->segment(2);
+	        $data['property_detail'] = $this->property_model->get_property_by_id($id);
+		$data['main_content'] = 'property_listing/property_details';
+		$this->load->view('includes/front/template', $data);
+	}
+}

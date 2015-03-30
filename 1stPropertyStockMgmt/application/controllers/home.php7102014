@@ -1,0 +1,46 @@
+<?php
+class Home extends CI_Controller {
+
+  /**
+    * Responsable for auto load the model
+    * @return void
+    */
+    public function __construct()
+    {
+        parent::__construct();
+        $this->load->model('manufacturers_model');
+        if($this->session->userdata('language')==''){
+			$this->lang->load('en', 'polish');
+		}
+		else{
+            $this->lang->load($this->session->userdata('language'), 'polish');
+		}		
+    }
+	
+	function langswitch()
+    {
+        $this->session->set_userdata('language',$this->uri->segment(3));
+        redirect($_SERVER['HTTP_REFERER']);
+    }
+	
+    /**
+    * Check if the user is logged in, if he's not, 
+    * send him to the login page
+    * @return void
+    */	
+	function index()
+	{
+		if($this->session->userdata('is_logged_in') && $this->session->userdata('type') == 'admin'){
+			redirect('admin/property');
+        }
+		elseif($this->session->userdata('is_logged_in') && $this->session->userdata('type') == 'user'){
+			//redirect('dashboard');
+		}
+		
+		$data = array('sess'=>$this->session->userdata);
+		$data['main_content'] = 'home/index';
+		$this->load->view('includes/front/template', $data);
+	}
+	
+	
+}

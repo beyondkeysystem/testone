@@ -1,0 +1,101 @@
+body {
+	background-color: #F5F5F5;
+}
+
+.body {
+	margin-bottom: 15px;
+}
+.wrapper {
+	/*min-width: 100%;
+	min-height: 100%;*/
+}
+
+.header {
+	background-color: white;
+	height: 85px;
+}
+
+.logo {
+	height: 65px;
+	margin-top: 18px;
+}
+
+.margin80left {
+	margin-left: 80px;
+}
+
+.noborder {
+	border-radius: 0px;
+}
+
+.well-white {
+	-moz-box-sizing: border-box;
+	background-color: #FFFFFF;
+	border: 1px solid #D5D5D5;
+	border-radius: 6px 6px 6px 6px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.well-white .page-header {
+	margin-top: 16px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	position: relative;
+}
+
+.well-white .page-header h1 {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 22px;
+}
+.page-list > li:first-child {
+	border-top: medium none;
+	margin-top: -20px;
+}
+.page-list li {
+	border-top: 1px solid #EEEEEE;
+}
+
+.well-white .body {
+	padding: 0 20px;
+}
+
+input[type=submit]{
+	margin-top: 15px;
+	padding-left:20px;
+}
+
+.nomargin-left{
+	margin-left:0px;
+}
+
+.adminreply{
+	padding: 15px;
+}
+
+#myform .btn.btn-primary {
+    bottom: 7px;
+    left: 10px;
+    position: relative;
+}
+
+.property_scroll .wrapper1, .property_scroll .wrapper2{width: 100%; border: none 0px RED;
+overflow-x: scroll; overflow-y:hidden;}
+.property_scroll .wrapper1{height: auto; }
+.property_scroll .wrapper2{height: auto; }
+.property_scroll .div1 {width:1000px; height: 20px; }
+.property_scroll .div2 {width:1000px; height: auto; ;
+overflow: auto;}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.property_scroll .div2 {width:1013px; height: auto; ;
+overflow: auto;}
+}
+
+
+	.span121{
+				width: 100% !important;
+	}
+
