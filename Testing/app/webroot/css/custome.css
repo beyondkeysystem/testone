@@ -1,0 +1,27 @@
+/*.page-main .current {   
+background: none repeat scroll 0 0 #e20011;
+    color: #fff;
+    text-decoration: none;
+}
+.page-main .current a{border-radius: 0px;color: #fff;}*/
+.note{ margin-right: 5px;}
+
+.verifiycls .field-area-left{ width:100%;}
+.verifiycls{ padding-top: 20px;}
+.questioncls {padding-top: 20px;}
+
+.error-message {
+    clear: both;
+    color: #f00;
+    font-size: 12px;
+    
+    padding-right: 15px;
+    padding-top: 5px;
+    width: 100%;
+}
+ul.open-order li{ padding-top: 0;}
+.open-order1{ padding-top: 13px; width: 161px; background-size: 100%; font-size: 14px;}
+.open-order2{ padding-top: 13px; width: 154px; background-size: 100%; font-size: 14px;height: 105px;margin-bottom: 6px;}
+ul.open-order li span{display: block;text-align: left;width: 100%;font-size: 14px;padding-left: 4px;}
+.note{width: auto!important;padding: 2px!important;}
+.alert{text-align: center !important;}

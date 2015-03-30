@@ -1,0 +1,9 @@
+
+
+$("nav ul li a").click(function(){
+  alert("hariom");
+     $("nav ul li").removeClass('active');
+     $(this).stop().animate();
+     $(this).parent().addClass('active');
+});
+

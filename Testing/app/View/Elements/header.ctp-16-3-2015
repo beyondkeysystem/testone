@@ -1,0 +1,140 @@
+<header id="header" class="navbar navbar-static-top">
+  <div class="navbar-header">
+        <?php if($this->Session->read("Auth.User")){ ?>
+        <a type="button" id="button-menu" class="pull-left"><i class="fa fa-dedent fa-lg"></i></a>
+        <?php }?>
+      <?php echo $this->Html->link($this->Html->tag("h2","HaRiMau",array("class"=>'fa fa-lg',"style"=>"font-size: 25px;margin-top:14px;margin-left: -20px")),array('controller' => 'Customers', 'action' => 'index'),array('escape' => false)); ?>
+        <a href="" class="navbar-brand"><?php //echo $this->html->image("harimau.png",array("style"=>"height:24px;width:55px")); ?></a>
+        </div>
+
+
+    <?php if($this->Session->read("Auth.User")){ ?>
+    <ul class="nav pull-right">
+    
+     <li class="dropdown"><a class="dropdown-toggle" id="bellnotified" data-toggle="dropdown"><span id="log" class="label label-danger pull-left"><?=$countAdmin?></span> <i style="display: initial;" class="fa fa-bell fa-lg"></i></a>
+      <?php if($countAdmin > 0){ ?>
+      <ul class="dropdown-menu dropdown-menu-right alerts-dropdown" id="toggleNotify">
+        <?php if($noti_data_ticket > 0){ ?>
+        <li class="dropdown-header">Tickets</li>
+          <li>
+              <a href="/admin/tickets" style="display: block; overflow: auto;">Create <span class="label label-warning pull-right"><?=$noti_data_ticket_create?></span></a>
+          </li>
+          <li>
+              <a href="/admin/tickets">Reply <span class="label label-success pull-right"><?=$noti_data_ticket_reply?></span></a>
+          </li>          
+        <li class="divider"></li>
+        <?php } ?>
+        
+        <?php if($cnt_contact > 0){ ?>
+          <li class="dropdown-header">Contact</li>
+          <li>
+              <a href="javascript:void(0);">Please check your email someone enquiry.</a>
+          </li>
+          <li class="divider"></li>
+        <?php } ?>       
+      </ul>
+      <?php } ?>
+    </li>
+    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-lg">
+    <?php echo $this->Html->image("admin_user.png",array("style"=>'width:24px;height:24px')); ?></i></a>
+      
+    <ul class="dropdown-menu dropdown-menu-right">
+        <li class="dropdown-header">Stores <i class="fa fa-shopping-cart"></i></li>
+                <li><a href="" target="_blank">Your Store</a></li>
+                <li class="divider"></li>
+        <li class="dropdown-header">Help <i class="fa fa-life-ring"></i></li>
+        <li><a href="" target="_blank">Homepage</a></li>       
+      </ul>
+    </li>
+    <li>
+    <?php 
+    echo $this->Html->link($this->Html->tag('span', 'Logout ', array('class' => 'hidden-xs hidden-sm hidden-md')).$this->Html->tag('i', '', array('class' => 'fa fa-sign-out fa-lg')),
+    array('controller' => 'users', 'action' => 'logout'),
+    array('escape' => false)
+); ?>  
+
+    </li>
+  </ul>
+  <?php }?>
+</header>
+<script>
+  function LoadNotification()
+  {
+    var logPrvCount;
+    console.log("Tester"); 
+    $.ajax({
+      type: "POST",
+      url: "/pages/bell",
+      data: {markas: "Read"},
+      beforeSend: function() {
+        logPrvCount = $('#log').html();        
+      },
+      success: function(msg) {
+        $log = $('#log');     
+        $log.text(msg);
+        console.log(msg);
+        logPrvCount = parseInt(logPrvCount);
+        if (logPrvCount > msg) {
+          var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', '/fe/beep.wav');
+            audioElement.setAttribute('autoplay', 'autoplay');
+            audioElement.load();
+        }
+      }
+    });
+  }
+  
+  $("#bellnotified").click(function(e){
+    $.ajax({
+       type: "POST",
+       url: "/pages/bellnotified",
+       data: {markas: "Read"},
+       beforeSend: function() {
+        $('#toggleNotify').html('<li class="dropdown-header">Loading...</li>');
+        
+      },
+      /*complete: function(){
+        $('#toggleNotify').hide();
+      },*/
+      success: function(msg) {
+        console.log(msg);
+        var myData = JSON.parse(msg);
+        console.log("MyData");
+        console.log(myData['noti_data_ticket']);
+        
+        var $noti_data_ticket = myData['noti_data_ticket'];
+        var $cnt_contact = myData['cnt_contact'];
+        var htmlNotifyListing;
+        
+        if($noti_data_ticket > 0){
+          htmlNotifyListing = '<li class="dropdown-header">Tickets</li>';        
+          htmlNotifyListing += '<li>';
+          htmlNotifyListing += '<a href="" style="display: block; overflow: auto;">Create <span class="label label-warning pull-right">'+myData['noti_data_ticket_create']+'</span></a>';
+          htmlNotifyListing += '</li><li>';
+          htmlNotifyListing += '<a href="">Reply <span class="label label-success pull-right">'+myData['$noti_data_ticket_reply']+'</span></a>';
+          htmlNotifyListing += '</li><li class="divider"></li>';
+        }
+        else{
+          htmlNotifyListing = 0;
+        }
+        
+        if($cnt_contact > 0){
+          htmlNotifyListing += '<li class="dropdown-header">Contact</li>';
+          htmlNotifyListing += '<li>';
+          htmlNotifyListing += '<a href="javascript:void(0);">Please check your email someone enquiry.</a>';
+          htmlNotifyListing += '</li><li class="divider"></li>';
+        }else{
+          if (htmlNotifyListing == 0) {
+            $('#toggleNotify').hide();
+          }
+        }
+        
+        $('#log').html(0);
+        $('#toggleNotify').html(htmlNotifyListing);
+      }
+    });
+  });
+  
+  //set up a timer calling the function every 60 seconds 60000:
+  setInterval( LoadNotification, 60000 );    
+</script>
