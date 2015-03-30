@@ -1,0 +1,63 @@
+.btn {
+  padding: 11px 15px 8px 15px;
+  border-width: 2px;
+  line-height: 1.2;
+
+  @include border-radius(3px);
+}
+
+.btn-primary {
+  color: $button-white-text !important;
+  background-color: $color-blue-main;
+  border-color: $color-blue-main;
+}
+
+.btn-primary:hover {
+  background-color: $color-blue-main-hover;
+  border-color: $color-blue-main-hover;
+}
+
+.btn-secondary {
+  color: $button-white-text !important;
+  background-color: $color-orange-main;
+  border-color: $color-orange-main;
+}
+
+.btn-secondary:hover {
+  background-color: $color-orange-main-hover;
+  border-color: $color-orange-main-hover;
+}
+
+.btn-gray {
+  color: $button-gray-text;
+  background-color: $color-gray-main;
+  border-color: $color-gray-main;
+}
+
+.btn-gray:hover {
+  color: $button-gray-text !important;
+  background-color: $color-gray-main-hover;
+  border-color: $color-gray-main-hover;
+}
+
+.btn-primary-border {
+  background: none;
+  border-color: $color-blue-main;
+  color: $color-blue-main !important;
+}
+
+.btn-primary-border:hover {
+  background-color: $color-blue-main;
+  color: #ffffff !important;
+}
+
+.btn-secondary-border {
+  background: none;
+  border-color: $color-orange-main;
+  color: $color-orange-main !important;
+}
+
+.btn-secondary-border:hover {
+  background-color: $color-orange-main;
+  color: #ffffff !important;
+}

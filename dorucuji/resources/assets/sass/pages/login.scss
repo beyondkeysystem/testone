@@ -1,0 +1,102 @@
+.login-body-bg {
+  background-color: #E2E6E9;
+}
+
+#login {
+
+  margin: 0 auto;
+
+  background-image: url("../../img/login-bg.png");
+  background-repeat: no-repeat;
+  background-position: 50% 110px;
+  padding-top: 100px;
+
+  .login-box {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 330px;
+    background: #FFFFFF;
+    overflow: hidden;
+
+    @include border-radius(3px);
+
+    .login-tabs {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+      li {
+        width: 50%;
+        background: #eeeeee;
+        float: left;
+        list-style: none;
+        text-align: center;
+        font-size: 15px;
+        text-transform: uppercase;
+
+        a {
+          width: 100%;
+          color: #939393;
+          text-decoration: none;
+          display: inline-block;
+          padding: 20px 0;
+        }
+
+      }
+
+      li.active {
+        background: #ffffff;
+
+        a {
+          color: $color-blue-main;
+        }
+
+      }
+
+    }
+
+    .login-box-content {
+      padding: 30px;
+    }
+
+    .login-box-forgot-password {
+
+      background: #F9F9F9;
+      border-top: 1px solid #ECECEC;
+      text-align: center;
+
+      .label-link, .label-link-without-js {
+        display: inline-block;
+        text-decoration: underline;
+        color: #939393;
+        padding: 15px;
+      }
+
+      .hidden-form {
+        display: none;
+        padding: 30px;
+      }
+
+    }
+
+    .password-sent-box-content {
+      background-image: url("../../img/logo-password-sent.png");
+      background-repeat: no-repeat;
+      background-position: 50% 50px;
+      padding: 170px 30px 30px 30px;
+      text-align: center;
+
+      h2 {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-bottom: 0;
+      }
+
+      p {
+        margin: 20px 0;
+      }
+    }
+
+  }
+  
+}

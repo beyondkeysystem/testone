@@ -1,0 +1,16 @@
+input.form-control {
+  border-color: #ECECEC;
+  padding: 20px 15px;
+}
+
+.form-control:focus {
+  border-color: $color-blue-main;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+input.form-control::-webkit-input-placeholder { color:#979797; }
+input.form-control::-moz-placeholder { color:#979797; } /* firefox 19+ */
+input.form-control:-ms-input-placeholder { color:#979797; } /* ie */
+input.form-control:-moz-placeholder { color:#979797; }
+

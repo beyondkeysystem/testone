@@ -1,0 +1,56 @@
+.alert {
+
+  position: relative;
+  border: none;
+
+  @include border-radius(3px);
+
+  .icon-wrapper {
+    width: 45px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: 8px 50%;
+    background-repeat: no-repeat;
+
+  @include border-radius(3px);
+  }
+
+}
+
+.alert-danger {
+   padding-left: 60px;
+   background-color: #FBDCDC;
+   color: #CB3E3E;
+
+   .icon-wrapper {
+     background-color: #CB3E3E;
+     background-image: url("../../img/alert-icon-danger.png");
+   }
+
+ }
+
+.alert-info {
+  padding-left: 60px;
+  background-color: #ADE0EE;
+  color: #1CA2C8;
+
+  .icon-wrapper {
+    background-color: #1CA2C8;
+    background-image: url("../../img/alert-icon-info.png");
+  }
+
+}
+
+.alert-success {
+  padding-left: 60px;
+  background-color: #EBF6D1;
+  color: #8ABB23;
+
+  .icon-wrapper {
+    background-color: #8ABB23;
+    background-image: url("../../img/alert-icon-success.png");
+  }
+
+}
