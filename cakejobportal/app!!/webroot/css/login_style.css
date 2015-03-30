@@ -1,0 +1,197 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+body {
+	padding:0px;
+	margin:0px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#373737;
+}
+img {
+	border:none;
+}
+.clear {
+	clear:both;
+}
+a {
+	text-decoration:none;
+	color:#666;
+}
+#mainframe {
+	width:auto;
+ height:;
+}
+#formBox {
+	 margin: 120px auto 0;
+         width:360px;
+	
+}
+#box_top {
+	background:url(../images/formbox_top.jpg) no-repeat;
+	height:13px;
+	width:315px;
+}
+#box_middle {
+	background:url(../images/formbox_middleBg.jpg) repeat-y;
+	width:293px;
+	padding-left:22px;
+}
+#box_bottom {
+	background:url(../images/formbox_bottom.jpg) no-repeat;
+	height:13px;
+	width:315px;
+}
+
+#box_top2 {
+	background:url(../images/formbox_top2.jpg) no-repeat;
+	height:13px;
+	/*width:499px;*/
+}
+#box_middle2 {
+	background:url(../images/formbox_middleBg2.jpg) repeat-y;
+	width:477px;
+	padding-left:22px;
+	padding-bottom:22px;
+}
+#box_bottom2{
+	background:url(../images/formbox_bottom2.jpg) no-repeat;
+	height:13px;
+	width:499px;
+}
+
+
+.error {
+	color:#900;
+	font-size:13px;
+	padding:5px 0;
+}
+.pass_box{
+	margin-top:8px;
+}
+.submitBTN{
+	float:right;
+	position:relative;
+	clear:both;
+	width:115px;
+}
+
+.remamber{
+	float:left;
+	width:150px;
+}
+/*input[type="text"], input[type="password"], input[type="file"] {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+	border-radius: 1px 1px 1px 1px;
+	border-style: solid;
+	border-width: 1px;
+	font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+	font-size: 14px;
+	margin-top: 3px;
+	padding: 6px 3px;
+	width: 260px;
+}
+input[type="text"]:hover, input[type="password"]:hover {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	border-color: #A0A0A0 #B9B9B9 #B9B9B9;
+	border-style: solid;
+	border-width: 1px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+}
+input[type="text"]:focus, input[type="password"]:focus {
+	border: 1px solid #4D90FE;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) inset;
+	outline: medium none;
+}
+
+.inputNBN{
+	background:url(../images/seConnecter.jpg) no-repeat;
+		border:none;
+		font-size:0px;
+		width:117px;
+		height:27px;
+		cursor:pointer;
+		text-indent:11111px;
+}
+/*
+input[type="submit"], input[type="button"], input[type="reset"] {
+	background:url(../images/seConnecter.jpg) no-repeat;
+		border:none;
+		font-size:0px;
+		width:117px;
+		height:27px;
+		cursor:pointer;
+		text-indent:11111px;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover {
+	background:url(../images/seConnecter-h.jpg) no-repeat;
+
+}
+input[type="submit"]:active, input[type="button"]:active, input[type="reset"]:active {
+	background:url(../images/seConnecter-ac.jpg) no-repeat;
+}
+
+*/
+.inputNBN:hover{background:url(../images/seConnecter-h.jpg) no-repeat;}
+.inputNBN:active{background:url(../images/seConnecter-ac.jpg) no-repeat;}
+
+.subBut{
+	margin-left:14px;
+}
+
+.bottomlink{
+	margin:5px;
+	float:right;
+	padding-right:58px;
+}
+.bottomlink a{
+	color:#495b82;
+	text-decoration:underline;
+	line-height:25px;
+}
+.bottomlink a:hover{
+	color:#069;
+	text-decoration:none;
+}
+.passForgotbox { width:252px; padding: 16px; margin-bottom:0.75em; background:#E2E2E2; -moz-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; border:1px solid #E2E2E2;padding-bottom:5px;padding-top:5px; }
+
+
+/*.blue, .blue:hover,.blue:active, .selected{
+ color:#fff;
+ width:109px;
+ height:26px;
+ text-align:center;
+ 
+ line-height:24px;
+ font-family:Arial, Helvetica, sans-serif;
+ text-decoration:none;
+ font-size:12px;
+ font-weight:bold;
+ border:none;
+ padding-bottom:4px;
+ } */
+
+.blue{ 
+ background-color:#1B60E0;
+ color:#FFFFFF;
+ /*background:url(../images/btn-img.png) no-repeat;*/
+ }
+ 
+.blue:hover{ 
+ background-color:#406AF5;
+ 
+ /*background:url(../images/btn-img.png) no-repeat 0 -32px;*/
+ }
+ 
+ 
+/*.blue:active{background:url(../images/btn-img.png) no-repeat 0 -64px; border:none; outline:none;}
+.selected{background:url(../images/btn-img.png) no-repeat 0 -64px; border:none;}*/
+
+

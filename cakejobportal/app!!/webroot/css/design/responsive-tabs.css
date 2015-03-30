@@ -1,0 +1,109 @@
+.r-tabs {
+	position: relative;
+}
+
+.r-tabs .r-tabs-nav {
+	/*border-bottom: 1px solid #ccc;*/
+}
+
+.r-tabs .r-tabs-nav .r-tabs-tab {
+	position: relative;
+	background:url(../images/separator.png) left top no-repeat; padding-left:2px; background-size:auto 100%;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-tab:last-child{ padding-right:0;}
+
+.r-tabs .r-tabs-nav .r-tabs-anchor {
+	background:url(../images/tab_nav_bg.jpg) repeat-x; height:50px;
+	padding: 10px 17px 10px 17px;
+	display: inline-block;
+	text-decoration: none;
+	color: #333333;
+	font-size:14px;
+	outline:0;
+	line-height: 28px;
+	font-family: 'open_sanssemibold';
+}
+
+.r-tabs .r-tabs-nav .r-tabs-state-active {
+	background-color: #018ccd;
+	 padding-left: 0;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-state-active .r-tabs-anchor {
+	color: #fff;
+	background: #018ccd;
+}
+
+.r-tabs .r-tabs-panel {
+	margin-bottom: 3px;
+}
+
+.r-tabs .r-tabs-accordion-title .r-tabs-anchor {
+	display: block;
+	padding: 10px;
+	background-color: #00aadd;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	margin-bottom: 3px;
+}
+
+.r-tabs .r-tabs-accordion-title.r-tabs-state-active .r-tabs-anchor {
+	background-color: #fff;
+	color: #00aadd;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+/*=========================================================*/
+
+.r-tabs .r-tabs-nav {
+    margin: 0;
+    padding: 0; border:1px solid #d7d7d7; overflow:hidden; float:left;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-tab:first-child{ padding-left:0;}
+
+.r-tabs .r-tabs-tab {
+    display: block;
+	float:left;
+    list-style: none;
+}
+
+.r-tabs .r-tabs-panel {
+    padding: 15px 0 0;
+    display: none;
+}
+
+.r-tabs .r-tabs-accordion-title {
+    display: none;
+}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active {
+    display: block;
+}
+
+.r-tabs .r-tabs-nav .r-tabs-anchor i{ margin-right:12px;}
+
+.r-tabs .r-tabs-panel.r-tabs-state-active p{}
+
+/* Accordion responsive breakpoint */
+@media only screen and (max-width: 980px) {
+    .r-tabs .r-tabs-nav {
+        display: none;
+    }
+
+    .r-tabs .r-tabs-accordion-title {
+        display: block;
+    }
+	.r-tabs .r-tabs-panel.r-tabs-state-active{ border:1px solid #efefef; border-top:1px solid #ccc; padding:10px;}
+	.r-tabs .r-tabs-accordion-title .r-tabs-anchor i{ margin-right:10px;}
+}

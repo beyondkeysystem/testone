@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>PHP Streaming: Sample Video</title>
+<script type="text/javascript" src="includes/swfobject.js"></script>
+<script type="text/javascript">
+		var attributes = {};
+
+		var params = {};
+	 	// for fullscreen
+		params.allowfullscreen = "true";
+
+		var flashvars = {};
+		// the video file or the playlist file
+		flashvars.file = "golfers.flv";
+
+		// the PHP script NONE FOR LOCAL ACCESS
+		flashvars.streamscript = "flvprovider.php";
+		//flashvars.bufferlength = "1.5";
+
+		// width and height of the player (h is height of the video + 20 for controlbar)
+		// required for IE7
+		flashvars.width = "320";
+		flashvars.height = "260";
+		// width  and height of the video
+		flashvars.displaywidth = "320";
+		flashvars.displayheight = "240";
+		flashvars.autostart = "true";
+		flashvars.showdigits = "true";
+
+	 	// for fullscreen
+		flashvars.showfsbutton = "true";
+
+		// 9 for Flash Player 9 (for ON2 Codec and FullScreen)
+		swfobject.embedSWF("includes/phpsflvplayer.swf", "flashcontent", "320", "260", "9.0.0", "includes/playerProductInstall.swf", flashvars, params, attributes);
+
+</script>
+</head>
+<body>
+<h3>Sample Video </h3>
+<div id="flashcontent">
+  <p>To view this video you need JavaScript enabled and the latest Adobe Flash Player installed.  <br />
+    <a href="http://www.adobe.com/go/getflashplayer/">Download the free Flash Player now</a>.</p>
+  <p><a href="http://www.adobe.com/go/getflashplayer/"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Download Flash Player" style="border: none;" /></a></p>
+</div>
+<p><a href="http://www.jeroenwijering.com/?item=JW_FLV_Player">JW FLV Player by Jeroen Wijering</a></p>
+<p><a href="http://philflash.inway.fr/phpflvplayer">Extension for PHP Streaming by PhilFlash</a></p>
+</body>
+</html>

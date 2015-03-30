@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/namrecruit/!svn/ver/365/admin/language
+END
+addlanguagepage.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/namrecruit/!svn/ver/6/admin/language/addlanguagepage.php
+END
+editlanguage.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/namrecruit/!svn/ver/6/admin/language/editlanguage.php
+END
+update_langvariable.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/namrecruit/!svn/ver/6/admin/language/update_langvariable.php
+END
+addlanguage.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/namrecruit/!svn/ver/6/admin/language/addlanguage.php
+END
+addlangvariable_action.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/namrecruit/!svn/ver/6/admin/language/addlangvariable_action.php
+END
+u
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/namrecruit/!svn/ver/6/admin/language/u
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/namrecruit/!svn/ver/6/admin/language/test.php
+END
+addlangvariable.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/namrecruit/!svn/ver/6/admin/language/addlangvariable.php
+END
+remove_language.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/namrecruit/!svn/ver/6/admin/language/remove_language.php
+END
+top.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/namrecruit/!svn/ver/365/admin/language/top.php
+END
+bottom.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/namrecruit/!svn/ver/6/admin/language/bottom.php
+END
+validate_langvarname.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/namrecruit/!svn/ver/6/admin/language/validate_langvarname.php
+END
+remove_language_variable.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/namrecruit/!svn/ver/6/admin/language/remove_language_variable.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/namrecruit/!svn/ver/6/admin/language/index.php
+END

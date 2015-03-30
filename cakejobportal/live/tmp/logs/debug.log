@@ -1,0 +1,212 @@
+2014-03-03 06:31:15 Notice: Notice (8): Undefined index: id in [/opt/lampp/htdocs/jobportal/app/Controller/ImController.php, line 39]
+Trace:
+ImController::index() - APP/Controller/ImController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:15 Notice: Notice (8): Undefined index: show in [/opt/lampp/htdocs/jobportal/app/Controller/ImController.php, line 43]
+Trace:
+ImController::index() - APP/Controller/ImController.php, line 43
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:15 Notice: Notice (8): Undefined variable: movie_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 35]
+Trace:
+include - APP/View/Im/index.ctp, line 35
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:15 Notice: Notice (8): Undefined variable: f_m_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 39]
+Trace:
+include - APP/View/Im/index.ctp, line 39
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:15 Notice: Notice (8): Undefined variable: movie_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 39]
+Trace:
+include - APP/View/Im/index.ctp, line 39
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:15 Notice: Notice (8): Undefined variable: load in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 43]
+Trace:
+include - APP/View/Im/index.ctp, line 43
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:15 Notice: Notice (8): Undefined variable: movie_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 66]
+Trace:
+include - APP/View/Im/index.ctp, line 66
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:15 Notice: Notice (8): Undefined variable: f_m_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 72]
+Trace:
+include - APP/View/Im/index.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:15 Notice: Notice (8): Undefined variable: f_m_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 123]
+Trace:
+include - APP/View/Im/index.ctp, line 123
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:15 Notice: Notice (8): Undefined variable: inp_date in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 135]
+Trace:
+include - APP/View/Im/index.ctp, line 135
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:17 Notice: Notice (8): Undefined index: id in [/opt/lampp/htdocs/jobportal/app/Controller/ImController.php, line 39]
+Trace:
+ImController::index() - APP/Controller/ImController.php, line 39
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:17 Notice: Notice (8): Undefined index: show in [/opt/lampp/htdocs/jobportal/app/Controller/ImController.php, line 43]
+Trace:
+ImController::index() - APP/Controller/ImController.php, line 43
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE/Cake/Controller/Controller.php, line 485
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 186
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:17 Notice: Notice (8): Undefined variable: movie_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 35]
+Trace:
+include - APP/View/Im/index.ctp, line 35
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:17 Notice: Notice (8): Undefined variable: f_m_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 39]
+Trace:
+include - APP/View/Im/index.ctp, line 39
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:17 Notice: Notice (8): Undefined variable: movie_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 39]
+Trace:
+include - APP/View/Im/index.ctp, line 39
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:17 Notice: Notice (8): Undefined variable: load in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 43]
+Trace:
+include - APP/View/Im/index.ctp, line 43
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:17 Notice: Notice (8): Undefined variable: movie_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 66]
+Trace:
+include - APP/View/Im/index.ctp, line 66
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:17 Notice: Notice (8): Undefined variable: f_m_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 72]
+Trace:
+include - APP/View/Im/index.ctp, line 72
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:17 Notice: Notice (8): Undefined variable: f_m_id in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 123]
+Trace:
+include - APP/View/Im/index.ctp, line 123
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+
+2014-03-03 06:31:17 Notice: Notice (8): Undefined variable: inp_date in [/opt/lampp/htdocs/jobportal/app/View/Im/index.ctp, line 135]
+Trace:
+include - APP/View/Im/index.ctp, line 135
+View::_evaluate() - CORE/Cake/View/View.php, line 947
+View::_render() - CORE/Cake/View/View.php, line 909
+View::render() - CORE/Cake/View/View.php, line 470
+Controller::render() - CORE/Cake/Controller/Controller.php, line 947
+Dispatcher::_invoke() - CORE/Cake/Routing/Dispatcher.php, line 193
+Dispatcher::dispatch() - CORE/Cake/Routing/Dispatcher.php, line 161
+[main] - APP/webroot/index.php, line 97
+

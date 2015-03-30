@@ -1,0 +1,1 @@
+<? g $objDb = new db();	  ?>

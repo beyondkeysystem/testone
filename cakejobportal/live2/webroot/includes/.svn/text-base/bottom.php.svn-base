@@ -1,0 +1,1 @@
+<td class="bottom_bg"><img src="images/bottem.gif" alt="bottem" width="990" height="70" /></td>

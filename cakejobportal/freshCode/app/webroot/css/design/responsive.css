@@ -1,0 +1,125 @@
+@media (max-width: 1199px) {
+.nav-wrap .navbar ul.nav li a{padding: 13px 24px;}
+.search-box{float:none;width: auto;}
+ul.top-buttons li{ padding: 0 10px;}
+ul.upload-search li.Email-Add{width:auto;}
+ul.three-boxs li h3{font-size: 18px;}
+
+/*====++++====*/
+.main_ctnr_middle{ width:530px; margin:0 20px;}
+
+.r-tabs .r-tabs-nav .r-tabs-anchor{ padding:10px 9px; font-size: 12px;}
+.r-tabs .r-tabs-nav .r-tabs-anchor i { margin-right: 4px;}
+.greyline{ margin:15px 0;}
+.post_nm, .comp_nm, .exp{ margin-bottom:2px;}
+.post_nm{ font-size:14px;}
+.comp_nm{ font-size:13px;}
+.exp{ font-size:12px;}
+.profile_c p{ line-height:20px;}
+.profile_c{ margin-bottom:40px;}
+.ct_employer .r-tabs-nav .r-tabs-anchor { padding: 10px 23px !important;}
+
+}
+
+@media (max-width: 1023px) {
+.search-box{ width:82%;}
+.Sidebar-Left, .Sidebar-Right{ width:160px;}
+.main_ctnr_middle{ width:410px; margin:0 10px;}
+.box .discretion{ padding:5px;}
+ul.three-boxs li div { padding: 5px;}
+ul.three-boxs li h3{ font-size:18px;}
+ul.three-boxs li { padding: 3.5%;}
+ul.upload-search li.Email-Add{ width:40%;}
+ul.upload-search li.browse{ margin-bottom:10px;}
+.nav-wrap .navbar ul.nav li a{padding: 13px 10px;}	
+.search-box input{width: 66%;}
+ul.upload-search li.Email-Add{width:auto;}
+/**/
+.sb_box h2.pro_user{ font-size:18px;}
+.sb_box h2{ line-height:18px; font-size:16px;}
+.pro_name, .pro_more{padding: 10px 5px;}
+.pro_name span, .pro_more span{ margin-left:5px;}
+.pro_more span{ font-size:11px;}
+.pro_more ul li span{ width:88%;}
+.sb_box p, ul.bullet_list li{ font-size:11px;}
+ul.bullet_list li i{ margin-right:3px;}
+ul.img_list li{ width:30%; margin-right:1%;}
+.sb_box h4{ line-height:16px; font-size:12px;}
+.profile_name h1{ font-size:28px; line-height:28px;}
+.profile_name{ height:73px;}
+.profile_content h2{ font-size:18px;}
+.profile_c h3{ font-size:14px;margin: 0 0 15px;}
+.profile_c h4{ font-size:13px;}
+.greyline{ margin:15px 0;}
+.profile_c p{ font-size:11px; line-height:16px;}
+ul.profile_list li{ margin-bottom:0;}
+.upload span, .upload a{ font-size:11px;}
+.upload span{ margin:0 5px;}
+.search_box{ padding:6px;}
+.search_box button{ margin-right:5px;}
+.search_box input[type="text"]{ width:120px;}
+.sbSelector{ background-position:6px center; text-indent:0;}
+.title-well h2{ font-size:18px;}
+ul.instant_msg li a.inst_msg_img{ width:25%;}
+ul.instant_msg li a.inst_msg_txt{ width:70%;}
+.profile_name h1.lh60 { line-height: 50px;}
+.vac_content{ padding:8px;}
+.box .discretion p{ font-size:11px;}
+ul.bl1 li a{ font-size:11px;}
+ul.bullet_list li{ line-height:20px;}
+
+}
+
+@media (max-width: 767px) {
+	.nav.navbar-nav{ background:#FFF;}
+ul.top-buttons{text-align:left}
+.search-box{float:none;width: auto;}
+.nav-wrap .navbar-nav {margin: 0 auto;}
+.nav-wrap .navbar ul.nav li a {background: none repeat scroll 0 0 #eee; margin-bottom:5px;}
+.nav-wrap .navbar ul.nav li a:hover{background: none repeat scroll 0 0 #02487b; color:#fff;}
+ul.upload-search{text-align:left}
+ul.three-boxs li h3{text-align:center;min-height: inherit;}
+ul.three-boxs li h3 br{display:none; }
+.copyright{text-align:center}
+.copyright .pull-left{float:none !important}
+.copyright .pull-right{float:none !important}
+/**/
+.container_1 .row{ margin:0;}
+.Sidebar-Left, .Sidebar-Right, .main_ctnr_middle{ width:100%; margin:0 0 20px;}
+ul.three-boxs li{ margin-bottom:20px;}
+.foot-TopMain .col-sm-5{ margin-bottom:10px;}
+ul.upload-search li{ margin:0 25px 0 0;}
+/**/
+.sb_box h2.pro_user, .sb_box h2{ font-size:22px;}
+.pro_more span{ font-size:12px;}
+.pro_more ul li span { width: 96%;}
+.pro_name, .pro_more {padding: 10px;}
+.sb_box p, ul.bullet_list li {font-size: 12px;}
+ul.instant_msg li a.inst_msg_img { width: 6%;}
+ul.instant_msg li a.inst_msg_txt {width: 92%;}
+.profile_c h4 { font-size: 12px;}
+ul.list_multiple li{ width:48%;}
+}
+@media (max-width: 640px) {
+ul.upload-search li.browse {margin-bottom: 20px;}
+.top-wrap {border-bottom: 0 solid #01375E;}
+ul.top-buttons li{border-bottom: 1px solid #01375E; border-right:none; width:50%; float:left}
+ul.top-buttons li:last-child{border-bottom: 1px solid #01375E; }
+ul.contact-menu li{ width:100%; background:none; border-bottom:1px solid #cdcdcd; padding-right:0;}
+}
+@media (max-width: 600px) {
+ul.upload-search li{ margin:0 1.5% 0 0;}
+.search-box input{ font-size:12px;}
+.signup_sec{ padding:10px;}
+}
+
+@media (max-width: 480px) {
+.search-box input{ width: 60%;}
+ul.top-buttons li{padding: 0 12px;}
+.signup_sec{ margin:0;}
+.signup_sec{ font-size:14px;}
+.blue_btn{ padding:5px; font-size:13px;}
+}
+@media (max-width: 360px) {
+ul.list_multiple li{ width:98%;}
+}

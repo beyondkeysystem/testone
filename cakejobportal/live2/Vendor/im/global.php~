@@ -1,0 +1,170 @@
+<?php 
+ob_start();
+/*error_reporting(0);
+$video_front_link="http://hitflics.com/uploads/video_output/";
+$admin_video_link="http://hitflics.com/uploads/video_output/";
+$admin_image_link="http://hitflics.com/uploads/video_thumbnail/";
+$admin_image_link_contest="http://hitflics.com/competition/uploads/video_thumbnail_contest/";*/
+
+
+if (!defined("BASE_PATH")) define ("BASE_PATH", "");
+
+if (!defined("DB_SERVER")) define("DB_SERVER", "localhost");
+//if (!defined("DB_NAME")) define("DB_NAME", "hitflics_video_db");
+//if (!defined("DB_USER")) define ("DB_USER", "hitflics_webg19");
+//if (!defined("DB_PASSWORD")) define ("DB_PASSWORD", "WebG@190411");
+
+if (!defined("DB_NAME")) define("DB_NAME", "chat");
+if (!defined("DB_USER")) define ("DB_USER", "root");
+if (!defined("DB_PASSWORD")) define ("DB_PASSWORD", "");
+ 
+
+mysql_connect(DB_SERVER,DB_USER,DB_PASSWORD) or die("Connection Error ".mysql_error());
+mysql_select_db(DB_NAME) or die("Database Selection Fail ".mysql_error());
+
+define("QS_VAR", "page");
+define("STR_FWD", "Next&gt;");
+define("STR_BWD", "&lt;Prev");
+define("NUM_LINKS", 5); 
+
+function return_script_name()
+{
+  $str=$_SERVER['PHP_SELF'];
+  $str1=array();
+  $str1=explode("/",$str);
+  $n=count($str1);
+  $n--;
+
+ $script_name=$str1[$n];
+ return $script_name;
+}
+function random()
+{
+list($min,$sec)=explode(" ",microtime());
+$random=($min+sec)*10000000*(rand(101,10001));
+return sha1($random);
+}
+
+
+function checkemail($email)
+{
+    if(eregi("^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$", $email)) 
+	{
+		// Valid Email
+       return true;
+     }
+     else 
+	 {
+        //Invalid email address.";
+		return false;
+     }
+}
+
+
+
+
+
+function is_chat_allowed($id)
+	{
+		$date=date('Y-m-d');
+		
+		$sql="select unique_id from trans_member where id=".$id;
+		$rs=mysql_query($sql);
+		$rsitem=mysql_fetch_object($rs);
+		$sql_1="select membership_scheme_id from trans_member_membership_scheme where member_id='".$rsitem->unique_id."' 
+				and '".$date."' between valid_from and valid_upto";
+		$rs_1=mysql_query($sql_1);
+		$rsitem_1=mysql_fetch_object($rs_1);
+		$sql_2="select chat_allowed from mast_membership_scheme where id=".$rsitem_1->membership_scheme_id."";
+		$rs_2=mysql_query($sql_2);
+		$rsitem_2=mysql_fetch_object($rs_2);	
+			if($rsitem_2->chat_allowed=='y')
+				{
+				return 'y';
+				}
+			else
+			{
+				return 'n';
+				}
+	}
+
+
+function get_video_height($video,$video_front_link) 
+{  
+		$command = '/usr/bin/ffmpeg' .' -i '.$video_front_link.$video.' -vstats 2>&1'; 
+		$output = shell_exec ( $command );  
+		$result = ereg ( '[0-9]?[0-9][0-9][0-9]x[0-9][0-9][0-9][0-9]?', $output, $regs ); 
+		if (isset ( $regs [0] )) 
+		{  
+			$vals = (explode ( 'x', $regs [0] ));  
+			$width = $vals [0] ? $vals [0] : null;  
+			$height = $vals [1] ? $vals [1] : null;  
+			return $height; 
+			//return array ('width' => 320, 'height' => 240 ); 
+		} 
+		else 
+		{
+		return false;  
+		}  
+}
+function get_member_unique_id($id)
+{
+	$sql="select unique_id from trans_member where id=".$id;
+	$rs=mysql_query($sql);
+	$rsitem=mysql_fetch_object($rs);
+	return $rsitem->unique_id;
+}
+function get_member_id($unique_id)
+{
+	$sql="select id from trans_member where unique_id='".$unique_id."'";
+	$rs=mysql_query($sql);
+	$rsitem=mysql_fetch_object($rs);
+	return $rsitem->id;
+}
+function is_follower($followed_unique_id)
+{
+	$followed_id=get_member_id($followed_unique_id);
+	if($_SESSION['m_id']!='')
+	{
+		$my_id=$_SESSION['m_id'];
+	}
+	if($_SESSION['visitorid']!='')
+	{
+		$my_id=$_SESSION['visitorid'];
+	}
+	$sql="select * from trans_member_follow where followed_id='".$followed_id."' and follower_id='".$my_id."' and follower_type='".$_SESSION['user_type']."'";
+	$rs=mysql_query($sql);
+	if(mysql_num_rows($rs)>0)
+		{
+			return 'y';
+		}
+	else
+		{
+			return 'n';
+		}
+}
+function get_buy_option_count($id=0)
+{
+	$select_buy_option_count="select count(*) total from trans_member_video_buy_option where member_video_id=".$id;
+	$rs_select_buy_option_count=mysql_query($select_buy_option_count);
+	$rsitem_count=mysql_fetch_object($rs_select_buy_option_count);
+	return $rsitem_count->total;
+}
+
+function get_trailer_count($id=0)
+{
+	$select_trailer_count="select count(*) total from trans_member_video_trailer where member_video_id=".$id;
+	$rs_trailer_count=mysql_query($select_trailer_count);
+	$rsitem_count=mysql_fetch_object($rs_trailer_count);
+	return $rsitem_count->total;
+}
+function video_owner($vid)
+{
+	$sql="select member_id from trans_member_video where id=".$vid;
+	$rs=mysql_query($sql);
+	$rsitem=mysql_fetch_object($rs);
+	return $rsitem->member_id;
+}
+
+
+?>

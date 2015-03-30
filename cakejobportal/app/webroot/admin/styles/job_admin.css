@@ -1,0 +1,173 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/bg-1.gif);
+	background-repeat: repeat-x;
+	background-color: #CECFD6;
+}
+
+td
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight:normal;
+	color:#333333;
+	text-decoration: none;
+}
+
+.nav td{font-size:0px;}
+
+input
+{
+	border-width:1px;
+	border-color:#CCCCCC;
+}
+
+
+textarea
+{
+	border-width:1px;
+	border-color:#CCCCCC;
+}
+select
+{
+	border-width:1px;
+	border-color:#CCCCCC;
+}
+.imgcss
+{
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+.joblogo{
+
+	background-image:url(../images/logo.gif);
+	background-repeat: repeat-y;
+}
+
+
+
+.top_right{
+	background-image:url(../images/top_right.gif);
+}
+
+.bottom_link_bg{
+	background-image:url(../images/botem_link.gif);
+}
+
+.bottom_bg{
+	background-image:url(../images/bottem.gif);
+}
+
+.whitebgcolor{
+	background-color: #ffffff;
+}
+
+.bluebgcolor{
+	background-color: #0066cc;
+}
+
+.bluebgcolor .normal_black{
+      width:20%;
+}
+
+.bluebgcolor .admincountrylist{
+min-width:147px;
+}
+.jobseekerheading
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:40px;
+	font-weight:normal;
+	color: #329900;
+	text-decoration: none;
+}
+
+.sectionheading
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	font-weight:normal;
+	color: #329900;
+	text-decoration: none;
+}
+
+.comment
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight:bold;
+	font-style:italic;
+	color: #0066cc;
+	text-decoration:none;
+}
+.terms
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #0066cc;
+	text-decoration:underline;
+}
+
+.headingRegister
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size:29px;
+	font-weight:normal;
+	color: #00329c;
+	text-decoration: none;
+}
+
+.star
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FF0000;
+	text-decoration: none;
+}
+
+.whiteheading_BG{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration: none;
+	background-image:url(../images/botem_link.gif);
+}
+
+.left_link
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	color: #000000;
+	text-decoration: none;
+}
+
+.left_link_bold
+{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color: #000000;
+	text-decoration: none;
+}
+
+.left_link:hover
+{
+	font-weight:bold;
+}
+
+.bluehead
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	background-color:#0066cc;
+	color: #FFFFFF;
+	text-decoration:none;
+}

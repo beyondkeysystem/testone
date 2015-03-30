@@ -1,0 +1,456 @@
+@media (max-width: 1199px) {
+.nav-wrap .navbar ul.nav li a{padding: 13px 24px;}
+.search-box{float:none;width: auto;}
+ul.top-buttons li{ padding: 0 10px;}
+ul.upload-search li.Email-Add{width:auto;}
+ul.three-boxs li h3{font-size: 18px;}
+
+/*====++++====*/
+.main_ctnr_middle{/* width:530px; */  width:75%; margin:0 20px;}
+
+.r-tabs .r-tabs-nav .r-tabs-anchor{ padding:10px 9px; font-size: 12px;}
+.r-tabs .r-tabs-nav .r-tabs-anchor i { margin-right: 4px;}
+.greyline{ margin:15px 0;}
+.post_nm, .comp_nm, .exp{ margin-bottom:2px;}
+.post_nm{ font-size:14px;}
+.comp_nm{ font-size:13px;}
+.exp{ font-size:12px;}
+.profile_c p{ line-height:20px;}
+.profile_c{ margin-bottom:40px;}
+.ct_employer .r-tabs-nav .r-tabs-anchor { padding: 10px 23px !important;}
+.inpt_area .list-row .salary .blue_btn {
+    margin-top: 20%;
+}
+
+/*------------------------------------------------11-07-14--------------------------------*/
+ul.contact-menu li.search_profile p {
+    width: 330px;
+}
+.pro_slider {
+    min-height: 315px;
+}
+.news_feed_page {
+    margin: 0 20px;
+    width: 54%;
+}
+.profile_content .news_comment {
+    width: 100%;
+}
+.profile_content .live_comment textarea {
+    width: 90%;
+}
+/****************recruit-young css*******************/
+.useful-notes .links {
+    width: 28%;
+}
+
+/****************recruit-group css*******************/
+ul.ry-upload li {
+    margin-right: 17px;
+}
+.sliding-images .whole-image-part .image-part-1 {
+    margin-right:15px;
+    width: 18%;
+}
+.image-part-1 img {
+    width: 100%;
+}
+.sliding-images .whole-image-part .image-part-1 .view-info {
+	padding:8px 0px;
+    width: 100%;
+}
+.prev-next-arrow .next-slide {
+    left: 618px;
+    position: relative;
+}
+
+}
+
+@media (max-width: 1023px) {
+.search-box{ width:82%;}
+.Sidebar-Left, .Sidebar-Right{ width:160px;}
+.main_ctnr_middle{ /*width:410px;*/  margin:0 10px;}
+.box .discretion{ padding:5px;}
+ul.three-boxs li div { padding: 5px;}
+ul.three-boxs li h3{ font-size:18px;}
+ul.three-boxs li { padding: 3.5%;}
+ul.upload-search li.Email-Add{ width:40%;}
+ul.upload-search li.browse{ margin-bottom:10px;}
+.nav-wrap .navbar ul.nav li a{padding: 13px 9px;}	
+.search-box input{width: 66%;}
+ul.upload-search li.Email-Add{width:auto;}
+/**/
+.sb_box h2.pro_user{ font-size:18px;}
+.sb_box h2{ line-height:18px; font-size:16px;}
+.pro_name, .pro_more{padding: 10px 5px;}
+.pro_name span, .pro_more span{ margin-left:5px;}
+.pro_more span{ font-size:11px;}
+.pro_more ul li span{ width:88%;}
+.sb_box p, ul.bullet_list li{ font-size:11px;}
+ul.bullet_list li i{ margin-right:3px;}
+ul.img_list li{ width:30%; margin-right:1%;}
+.sb_box h4{ line-height:16px; font-size:12px;}
+.profile_name h1{ font-size:28px; line-height:28px;}
+.profile_name{ height:73px;}
+.profile_content h2{ font-size:18px;}
+.profile_c h3{ font-size:14px;margin: 0 0 15px;}
+.profile_c h4{ font-size:13px;}
+.greyline{ margin:15px 0;}
+.profile_c p{ font-size:11px; line-height:16px;}
+ul.profile_list li{ margin-bottom:0;}
+.upload span, .upload a{ font-size:11px;}
+.upload span{ margin:0 5px;}
+.search_box{ padding:6px;}
+.search_box button{ margin-right:5px;}
+.search_box input[type="text"]{ width:120px;}
+.sbSelector{ background-position:6px center; text-indent:0;}
+.title-well h2{ font-size:18px;}
+ul.instant_msg li a.inst_msg_img{ width:25%;}
+ul.instant_msg li a.inst_msg_txt{ width:70%;}
+.profile_name h1.lh60 { line-height: 50px;}
+.vac_content{ padding:8px;}
+.box .discretion p{ font-size:11px;}
+ul.bl1 li a{ font-size:11px;}
+ul.bullet_list li{ line-height:20px;}
+.signup_sec{ padding:0;}
+.inpt_area .list-row .salary .blue_btn {
+    margin-top: 27%;
+}
+.ad-div .inpt_area .list-row .salary{ width:100%;}
+
+
+/*------------------------------------------------11-07-14--------------------------------*/
+ul.contact-menu li.search_profile {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    width: 100%;
+}
+ul.contact-menu li.search_profile p {
+    width: 330px;
+}
+ul.contact-menu li.search_profile p {
+    margin: 0;
+    width: 100%;
+}
+.pro_slider {
+    min-height: 315px;
+    width: 47%;
+}
+.profile_content .news_comment {
+    width: 100%;
+}
+.profile_content .live_comment textarea {
+    width: 85%;
+}
+/*------------------------------------------------11-07-14--------------------------------*/
+
+/**************recruit group css***************/
+.news_feed_page {
+    width: 64%;
+}
+ul.ry-upload li {
+    margin-bottom: 10px;
+    margin-right: 0px;
+    width: 100%;
+}
+ul.instant_msg_left li a.inst_msg_txt {
+    width: 100px;
+}
+
+
+}
+
+@media (max-width: 990px) {
+/**************help page css***************/
+.accordion a.acc_nm {
+    padding: 12px 35px 12px 18px;
+}
+/**************recruit group css***************/
+.news_feed_page {
+    width: 54%;
+}
+.sliding-images .whole-image-part .image-part-1 {
+    margin-right: 17px;
+    width: 17%;
+}
+.sliding-images .whole-image-part .image-part-1 .view-info {
+    padding: 3px 0;
+}
+.sliding-images .prev-next-arrow {
+    padding-top: 4%;
+}
+.prev-next-arrow .next-slide {
+    left: 460px;
+}
+
+}
+@media (max-width: 900px) {
+.sliding-images .prev-next-arrow {
+    padding-top: 4.3%;
+}
+}
+
+@media (max-width: 768px) {
+.view-dec{ padding-top:10px;}
+	
+}
+	
+	
+@media (max-width: 767px) {
+	.nav.navbar-nav{ background:#FFF;}
+ul.top-buttons{text-align:left}
+.search-box{float:none;width: auto;}
+.nav-wrap .navbar-nav {margin: 0 auto;}
+.nav-wrap .navbar ul.nav li a {background: none repeat scroll 0 0 #eee; margin-bottom:5px;}
+.nav-wrap .navbar ul.nav li a:hover{background: none repeat scroll 0 0 #02487b; color:#fff;}
+ul.upload-search{text-align:left}
+ul.three-boxs li h3{text-align:center;min-height: inherit;}
+ul.three-boxs li h3 br{display:none; }
+.copyright{text-align:center}
+.copyright .pull-left{float:none !important}
+.copyright .pull-right{float:none !important}
+/**/
+.container_1 .row{ margin:0;}
+.Sidebar-Left, .Sidebar-Right, .main_ctnr_middle{ width:100%; margin:0 0 20px;}
+ul.three-boxs li{ margin-bottom:20px;}
+.foot-TopMain .col-sm-5{ margin-bottom:10px;}
+ul.upload-search li{ margin:0 25px 0 0;}
+/**/
+.sb_box h2.pro_user, .sb_box h2{ font-size:22px;}
+.pro_more span{ font-size:12px;}
+.pro_more ul li span { width: 96%;}
+.pro_name, .pro_more {padding: 10px;}
+.sb_box p, ul.bullet_list li {font-size: 12px;}
+ul.instant_msg li a.inst_msg_img { width: 6%;}
+ul.instant_msg li a.inst_msg_txt {width: 92%;}
+.profile_c h4 { font-size: 12px;}
+ul.list_multiple li{ width:48%;}
+ul.gallery-thumb li span{ font-size:13px;}
+.brand{ float:none; text-align:center;}
+
+/**************help page css***************/
+nav {
+    position: relative;
+    z-index: 9999;
+}
+/**************recruit group css***************/
+.pro_name_left {
+    width: 100%;
+}
+ul.img_list_members {
+    height: 120px;
+}
+.profile_media a img {
+width: 100%;
+}
+.sliding-images .whole-image-part .image-part-1 {
+    margin-right: 23px;
+}
+.prev-next-arrow .next-slide {
+    left: 630px;
+}
+
+
+}
+@media (max-width: 640px) {
+ul.upload-search li.browse {margin-bottom: 20px;}
+.top-wrap {border-bottom: 0 solid #01375E;}
+ul.top-buttons li{border-bottom: 1px solid #01375E; border-right:none; width:50%; float:left}
+ul.top-buttons li:last-child{border-bottom: 1px solid #01375E; }
+ul.contact-menu li{ width:100%; background:none; border-bottom:1px solid #cdcdcd; padding-right:0;}
+.profile_content {    padding-bottom: 15px;}
+/**************help page css***************/
+ul.top-buttons li.canael {
+    display: block;
+}
+/**************recruit group css***************/
+.sliding-images .whole-image-part .image-part-1 {
+    margin-right: 19px;
+}
+.prev-next-arrow .next-slide {
+    left: 508px;
+}
+}
+@media (max-width: 600px) {
+ul.upload-search li{ margin:0 1.5% 0 0;}
+.search-box input{ font-size:12px;}
+.signup_sec{ padding:10px;}
+ul.gallery-thumb li{ width:32%; margin-bottom:5px;}
+/*------------------------------------------------11-07-14--------------------------------*/
+.view_profile_list li {
+    margin: 15px 4px;
+}
+.view_advans {
+    padding: 0 28px 20px;
+    text-align: center;
+}
+.view_advans .pagination {
+    float: none;
+    margin: 20px 0 0;
+	text-align: center;
+}
+.view_advans .pagination li a {
+    padding: 0 8px;
+}
+/*------------------------------------------------11-07-14--------------------------------*/
+.profile_content .live_comment textarea {
+    width: 430px;
+}
+.profile_content .news_comment_in {
+    padding: 10px;
+}
+}
+
+@media (max-width: 480px) {
+.search-box input{ width: 60%;}
+ul.top-buttons li{padding: 0 12px;}
+.signup_sec{ margin:0;}
+.signup_sec{ font-size:14px;}
+.blue_btn{ padding:5px; font-size:13px;}
+ul.upgrade-list li{ font-size:14px;}
+.price-box h3{ font-size:13px;}
+.inpt_area .list-row .salary .blue_btn {
+    margin-top: 15px;
+}
+.list-row .sect{ width:48%;}
+.come-join{ font-size:18px;}
+.profile_content h2{ font-size:16px;}
+.list-row .salary {float: left;margin-right: 0;width: 100%;}
+.inpt_area label.sal {    display: block;}
+.price-box h3{ max-width:95px;}
+p.job_Ad {font-size: 14px;line-height: 30px;}
+ul.gallery-thumb li{ width:33.33%;}
+.profile_content .live_comment textarea {
+    width: 85%;
+}
+.pro_slider {
+    float: none;
+    margin: 15px auto;
+    min-height: 315px;
+    width: 68%;
+}
+/**************help page css***************/
+.helping-part .help-image {
+    margin: 0 20px;
+}
+.help_media_left {
+    margin-bottom: 13px;
+    margin-right: 32px;
+}
+/**************recruit young css***************/
+.useful-notes .links {
+    width: 43%;
+}
+/**************recruit group css***************/
+.prev-next-arrow .next-slide {
+    left: 345px;
+}
+.sliding-images .whole-image-part .image-part-1 {
+    margin-right: 13px;
+}
+.sliding-images .prev-next-arrow {
+    padding-top: 6%;
+}
+
+}
+
+
+@media (max-width: 380px) {
+/**************recruit young css***************/
+.useful-notes .links {
+    width: 100%;
+}
+/**************recruit group css***************/
+ul.group-top-menu {
+    float: left;
+    text-align: left;
+}
+ul.group-top-menu li a {
+    padding: 10px 7.9px;
+}
+.group_scroll .news_bg .news_comment {
+    width: 100%;
+}
+.group_scroll .news_bg .news_comment {
+    width: 100%;
+}
+.sliding-images .whole-image-part .image-part-1 {
+    margin-right: 9px;
+}
+.prev-next-arrow .next-slide {
+    left: 245px;
+}
+.sliding-images .prev-next-arrow {
+    padding-top: 5.5%;
+}
+.sliding-images .whole-image-part .image-part-1 .view-info {
+    font-size: 11px;
+}
+}
+
+
+@media (max-width: 360px) {
+ul.list_multiple li{ width:98%;}
+.price-box{ width:96%; border-right:1px solid #d7d7d7;}
+.list-row .salary-range{ width:94%;}
+.list-row .sect { margin-right: 0; width: 100%;}
+ul.gallery-thumb li { width: 50%; }
+ul.gallery-thumb li span{ font-size:11px;}
+
+/*------------------------------------------------11-07-14--------------------------------*/
+ul.contact-menu li.search_profile input[type="text"] {
+    width: 65%;
+}
+.pro_slider {
+    min-height: 315px;
+    width: 98%;
+}
+/*------------------------------------------------11-07-14--------------------------------*/
+/**************help page css***************/
+.helping-part .help-image {
+    margin: 0;
+}
+.help_media_left {
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+ul.help_media-upload {
+    padding: 5px;
+}
+/**************recruit gruop css***************/
+.sliding-images .whole-image-part .image-part-1 {
+    margin-right: 8px;
+}
+.prev-next-arrow .next-slide {
+    left: 225px;
+}
+
+
+
+}
+
+
+
+@media (max-width: 320px) {
+/**************help page css***************/
+ul.help_media-upload {
+    padding: 3px;
+}
+ul.help_media-upload li {
+    margin-right: 10px;
+}
+/**************recruit gruop css***************/
+.sliding-images .whole-image-part .image-part-1 {
+    margin-right: 6px;
+}
+.prev-next-arrow .next-slide {
+    left: 180px;
+}
+.sliding-images .prev-next-arrow {
+    padding-top: 5%;
+}
+
+
+
+
+}

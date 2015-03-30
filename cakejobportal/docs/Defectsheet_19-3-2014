@@ -1,0 +1,244 @@
+1) http://dev.prohomeblog.com.au/owners/setupProperty
+fields which are mandatory,to that field
+There should be * astrick sign
+DONE
+
+
+
+2) after reseting password,following message is coming.
+of mail sent succssfully.
+See following screenshot :
+ProHomeBlog™ 2014-02-26 15-18-35
+DONE
+
+
+
+3) http://dev.prohomeblog.com.au/contractors/home
+When we unsubscribe the property,then the following error is coming.
+See following screenshot :
+ProHomeBlog™ 2014-02-26 14-34-32.png.
+DONE
+
+
+
+
+4) in 768 x 1024 & 800 x 1280 resolution.
+See following screenshot :
+ProHomeBlog™ 2014-03-04 18-22-32.png.
+the text are not alligned.
+
+
+5) See following screenshot :
+Pro Home Blog 2014-03-05 15-41-28.png.
+Pro Home Blog 2014-03-05 15-42-04.png.
+menus is not alligned properly.
+also content is croping.
+http://dev1.prohomeblog.com.au/properties/maintenance/EIEBFK01
+this is the URL of the above screenshots
+it is in 320 x 480 & 360 x 640 also.
+
+
+6) Home page content is also not alligned in the resolution 768 x 1024 & 800 x 1280.
+See following screenshot :
+ProHomeBlog™ 2014-03-05 16-12-07.png.
+
+
+7) When i go to the home page then it will show the follwoing URL  :
+http://dev1.prohomeblog.com.au/page/aboutus
+
+and when i go to the about us then the following URL is coming :
+http://dev1.prohomeblog.com.au/page/company
+
+
+8) http://dev1.prohomeblog.com.au/subscribe
+form is not allign properly.
+See following screenshot :
+ProHomeBlog™ 2014-03-05 18-38-57
+
+
+
+9) See following screenshot :
+ProHomeBlog™ 2014-03-06 15-07-54.png.
+this points are not alligned.
+in the resolution 320 x 480 & 360 x 640
+
+
+
+10) See following screenshot :
+ProHomeBlog™ 2014-03-06 16-26-33.png.
+It should be in single line.
+
+
+
+11) correct spelling of "comprehensive"
+its different on both place.
+See following screenshot :
+ProHomeBlog™ 2014-03-06 16-37-08
+
+
+12)  http://dev1.prohomeblog.com.au/page/support
+to the following URL
+See following screenshot :
+ProHomeBlog™ 2014-03-06 18-32-10.png.
+this error is coming.
+
+
+13) category is not adding properly,please re-check it.
+http://dev1.prohomeblog.com.au/properties/dashboard/HKCHKB04/199/0/0
+See following screenshot : 
+Pro Home Blog 2014-03-06 18-46-27.png.
+
+
+
+14) When we add category then when we select default catagory,and only fill the check box.
+and leave name field blank.and submit it then it is submitted successfully.
+While it should not accept the blank field.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+For contractor and owners role 
+sameer.chourasia@cisinlabs.com
+
+
+320 x 480
+
+When login as contractor :
+1) Top menu is not alligned.
+ProHomeBlog™ 2014-03-07 13-45-36
+
+2) Spacing is not proepr.
+ProHomeBlog™ 2014-03-07 13-53-24
+
+3) Correct the spelling of "comprehensive".
+ProHomeBlog™ 2014-03-07 14-01-31
+
+4) Follwoing message is coming on the FAQ :
+ProHomeBlog™ 2014-03-07 14-59-42
+
+5) Content is croping and not alligned.
+ProHomeBlog™ 2014-03-07 15-02-28
+
+
+
+When login as Owner :
+1) Pro Home Blog 2014-03-07 17-04-24
+on the home page,when go to local supplier,then the spacing is not proper.
+
+2) ProHomeBlog™ 2014-03-07 17-44-45
+on adding property,page is not alligned.
+
+3) Follwoing text is not alligned properly,text is croping.
+Pro Home Blog 2014-03-11 11-07-46
+http://dev.prohomeblog.com.au/properties/maintenance/DGBKKI0
+Pro Home Blog 2014-03-11 11-21-40
+text is overlapping to each other.
+
+
+
+
+
+
+
+
+
+/*----------Production Server BUGS-----*/
+
+prohomeblog.com.au
+
+
+1) When we add content to the CMS then while editing the content image will not upload and giving the following error :
+An Internal Error Has Occurred.
+Error: An Internal Error Has Occurred.
+See following screenshot : 
+ProHomeBlog™ 2014-03-12 15-20-12
+
+
+2) When we add multiple images then the GUI of the images will get disturb.
+See following screenshot : 
+ProHomeBlog™ 2014-03-12 15-34-11
+ProHomeBlog™ 2014-03-12 15-36-58
+ProHomeBlog™ 2014-03-12 15-37-36
+
+
+3) on the maintenance pop up,it is defaultly select this option.
+See following screenshot : 
+Pro Home Blog 2014-03-12 16-13-14
+
+
+4) Images are uploading properly,but it is not viewing the image.
+When we edit the images then the icons of the image is there.
+See following screenshots : 
+Pro Home Blog 2014-03-13 14-45-37
+Pro Home Blog 2014-03-13 14-46-49
+
+
+5) Images which are uploaded in the category they are not visible in the mozilla but visible in the google chrome.
+
+
+6) In the gallery there only image should upload,but all types of documents,pdfs,and excelsheets are uploading here.
+No validation is here while uploading image,there must be some validation when we upload any document other than the image.
+
+
+7) on this follwoing URLs,click here on the logo :
+
+https://prohomeblog.com.au/contents/index/KEDJKC07/6/0
+https://prohomeblog.com.au/properties
+
+then the following error is coming :
+
+"Invalid User
+Error: The requested address '/properties' was not found on this server."
+
+See following screenshot : 
+ProHomeBlog™ 2014-03-14 12-29-02
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

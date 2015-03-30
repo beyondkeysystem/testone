@@ -1,0 +1,633 @@
+<?php
+
+App::uses('Controller', 'Controller');
+
+class ImController extends AppController {
+
+    public $components = array('Auth');
+    var $uses = array('ResetPassword', 'TransFilmmakersChat', 'TransMember', 'TransMemberMembershipScheme', 'TransMemberVideo', 'TransVideoCc','EmployerProfile', 'JobJobseeker');
+
+    public function beforeFilter() {
+		parent::beforeFilter();
+		// load Models
+		$this->loadModel('User');
+		$this->loadModel('DmeAssignPatient');
+		$this->loadModel('Report');
+		// set loggeg in user in @user variable
+		if ($this->Auth->user()) {
+			$this->set('user', $this->Auth->user());
+		}
+		// manage user authentication
+		$auth_data = $this->Auth->user();
+		if (isset($auth_data) && ! empty($auth_data)) {
+			//if ($auth_data ['type'] == 'candidate') {
+				if ($auth_data ['type'] == 'candidate') {
+                                
+                            $id = $auth_data['id'];
+                            $userdata = $this->TransMember->getUserInfoById($id);
+                            $member_id = $userdata[0]['trans_member']['unique_id'];
+                             $member_data = $this->TransMemberMembershipScheme->getTransMemberMembershipSchemeByID($member_id);
+
+                            //pr($userdata);
+                            //die;
+                            //$_SESSION['member_id'] = '00f3c678348edf110ea6f0745bb3bd39d15be974';
+                            $_SESSION['member_id'] = $userdata[0]['trans_member']['unique_id'];
+                            $_SESSION['film_maker'] = 1;
+                            $_SESSION['viewer_logged_in'] = 1;
+                            $_SESSION['m_id'] = $userdata[0]['trans_member']['id'];
+                            $_SESSION['user_type'] = 'M';
+                            $_SESSION['username'] = $userdata[0]['trans_member']['user_name'];
+                            $_SESSION['user_role'] = $userdata[0]['trans_member']['user_role'];
+                            $_SESSION['member_last_login'] = $userdata[0]['trans_member']['last_login'];
+                            $_SESSION['member_membership_id'] = $member_data[0]['trans_member_membership_scheme']['membership_scheme_id'];
+			}
+			if ($auth_data ['type'] == 'employer')
+                        {
+                            //pr($auth_data);
+                            //die;
+                            $id = $auth_data['id'] ;
+                            $userdata = $this->TransMember->getUserInfoById($id);
+           
+                            //pr($userdata);
+                            //die;
+                            $_SESSION['m_id'] = $userdata[0]['trans_member']['id'];
+                            $_SESSION['user_type'] = 'M';
+                            $_SESSION['username'] = $auth_data['name'];
+                            $_SESSION['user_role'] = $userdata[0]['trans_member']['user_role'];
+                            $_SESSION['member_last_login'] = $userdata[0]['trans_member']['last_login'];
+                            $_SESSION['member_id'] = $userdata[0]['trans_member']['unique_id'];
+                            $_SESSION['film_maker'] = 1;
+                            $_SESSION['viewer_logged_in'] = 1;
+			}
+		}
+		// end of authentication
+	}
+
+
+    /**
+     * index method
+     *
+     * @throws NotFoundException
+     * @return void
+     */
+    public function index() {
+
+        //url for admin chat room "http://cakejobportal/im/my_chat_room?chat_with=NDc1&id=MTMzNQ=="
+        //url for user chat box "http://cakejobportal/im/?id=MTMzNQ=="
+
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/global.php');
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/SimpleImage.php');
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/main.php');
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/member.php');
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/membership_manage.php');
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/member_scheme.php');
+
+
+        $simpleImg = new SimpleImage();
+        $main = new main();
+        $member = new member();
+        $membership = new membership_manage();
+        $memberScheme = new member_scheme();
+
+
+        //for admin
+     
+        //For user
+        //$_SESSION['member_id'] = '00f3c678348edf110ea6f0745bb3bd39d15be974';
+        //$_SESSION['film_maker'] = 1;
+        //$_SESSION['viewer_logged_in'] = 1;
+        //$_SESSION['m_id'] = 681;
+        //$_SESSION['user_type'] = 'M';
+        //$_SESSION['username'] = 'Makmohan';
+        //$_SESSION['user_role'] = 'user';
+        //$_SESSION['member_last_login'] = '1393850245';
+        //$_SESSION['member_membership_id'] = 1;
+
+       
+         /* -----------------------------------------------Movie And Movie Maker Information And film type -------------------------------------------------- */
+        $movie_id = '';
+        if (isset($_REQUEST['id']) AND $_REQUEST['id'] != '') {
+            $movie_id = base64_decode($_REQUEST['id']);
+        }
+        if (isset($_REQUEST['show']) AND $_REQUEST['show'] == 'trailer') {
+            $movie_id = base64_decode($_REQUEST['id']);
+            $trailer_id = base64_decode($_REQUEST['trailer_id']);
+        }
+
+        if ($movie_id != '') {
+            //$this->loadModel('TransMember');
+            $data = $this->TransMember->getMember($movie_id);
+            //$this->loadModel('TransMemberVideo');
+            $videos = $this->TransMemberVideo->getTransMemberVideo($movie_id);
+
+            $result = $this->TransMember->arraytoobject($data[0]);
+
+            $f_property = $result->mv->video_property;
+            $f_m_id = $result->tm->id;
+            $video_title = $result->mv->title;
+            $description = $result->mv->description;
+
+            $this->set('f_m_id', $f_m_id);
+            if (strlen($result->mv->video_output_file_2) > 0 && strlen($result->mv->video_output_file_3) > 0) {
+                $video_output_file = $result->mv->video_output_file;
+                $video_output_file_2 = $result->mv->video_output_file_2;
+                $video_output_file_3 = $result->mv->video_output_file_3;
+            } elseif (strlen($result->video_output_file_2) > 0 && strlen($result->mv->video_output_file_3) == 0) {
+                $video_output_file = $result->mv->video_output_file;
+                $video_output_file_2 = $result->mv->video_output_file_2;
+                $video_output_file_3 = $result->mv->video_output_file_2;
+            } elseif (strlen($result->video_output_file_2) == 0 && strlen($result->mv->video_output_file_3) == 0) {
+                $video_output_file = $result->mv->video_output_file;
+                $video_output_file_2 = $result->mv->video_output_file;
+                $video_output_file_3 = $result->mv->video_output_file;
+            }
+
+            $file_size = number_format(($result->mv->video_output_file_size / (1024 * 1024)), 2, '.', '') . ' MB';
+            $video_thumbnail_file = $result->mv->video_thumbnail_file;
+            $video_length = $result->mv->video_length;
+            $like_count = $result->mv->like_count;
+            $rating_caution = $result->mv->rating_caution;
+            $rating_image = $result->vcr->image;
+            $maker_id = $result->mv->member_id;
+            $f_name = $result->tm->first_name;
+            $l_name = $result->tm->last_name;
+            $about_me = $result->tm->about_me;
+            $profile_image_file = $result->tm->profile_image_file;
+            $status = $result->mv->status;
+            $screening_status = $result->mv->video_status;
+            $maker_paypalid = $result->tm->paypalId;
+
+
+
+            $videos = $this->TransMemberVideo->getVideos($maker_id);
+            $this->set('frs', $videos);
+
+            //pr($_SESSION);
+            $member_marker = $this->TransMember->getMemberByMarker($maker_id);
+            $mem_result = $this->TransMember->arraytoobject($member_marker[0]['trans_member']);
+            $user_id = $_SESSION['m_id'];
+            $this->set('user_id', $user_id);
+            $fm_id = $mem_result->id;
+            $this->set('fm_id', $fm_id);
+            $fm_record = $this->TransMember->get_user_info($fm_id);
+            $user_record = $this->TransMember->get_user_info($user_id);
+            $fm_record_obj = $this->TransMember->arraytoobject($fm_record[0]['trans_member']);
+            $this->set('fm_record', $fm_record_obj);
+            
+
+            $this->set('r', $mem_result);
+            $user_record = $this->TransMember->arraytoobject($user_record[0]['trans_member']);
+            $this->set('user_record', $user_record);
+            //pr($user_record);
+            //die;
+            $fm_record = $mem_result;
+
+            if ($fm_record) {
+                $fmimage = $fm_record->profile_image_file;
+                $this->set('fmimage', $fmimage);
+                $fm_fname = $fm_record->first_name;
+                $this->set('fm_fname', $fm_fname);
+                $fm_lname = $fm_record->last_name;
+                $this->set('fm_lname', $fm_lname);
+                $fm_image = 'uploads/main/' . $fmimage;
+                $this->set('fm_image', $fm_image);
+                if (!strlen($fmimage) || !file_exists($fm_image)) {
+                    $fm_image = 'uploads/main/nopicture.png';
+                }
+            } else {
+                $fm_image = 'uploads/main/nopicture.png';
+                $fm_fname = '';
+                $fm_lname = '';
+            }
+            if ($user_record) {
+                $uimage = $user_record->profile_image_file;
+                $this->set('uimage', $uimage);
+                $u_fname = $user_record->first_name;
+                $this->set('u_fname', $u_fname);
+                $u_lname = $user_record->last_name;
+                $this->set('u_lname', $u_lname);
+                $u_image = 'uploads/main/' . $uimage;
+                $this->set('u_image', $u_image);
+                if (!strlen($uimage) || !file_exists($u_image)) {
+                    $u_image = 'uploads/main/nopicture.png';
+                }
+            } else {
+                $u_image = 'uploads/main/nopicture.png';
+                $u_fname = '';
+                $u_lname = '';
+            }
+        }
+    }
+
+    /* ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    function public_chatting() {
+        $this->layout = "ajax";
+        $this->autoRender = false;
+        if ($this->request->is('ajax')) {
+
+            if (isset($_POST['insert_chat']) && !empty($_POST['insert_chat'])) {
+                $message = $_POST['insert_chat'];
+                $to_id = $_POST['to'];
+                $from_id = $_POST['from'];
+               // $video_id = base64_decode($_POST['video_id']);
+	        $video_id = $_POST['video_id'];
+                if (!empty($to_id) && !empty($from_id) && !empty($video_id)) {
+                    if (!empty($message)) {
+                        $f = $this->insert_chat($to_id, $from_id, $video_id, $message);
+                    }
+                    $chat_type = $_POST['chat_type'];
+                    if ($chat_type == 'all') {
+                        $chat = $this->get_current_chat($to_id, $from_id, $video_id);
+                    } else {
+                        $chat = $this->get_current_chat($to_id, $from_id, $video_id);
+                    }
+
+                    echo $this->chat_content($chat, 1);
+                } else {
+                    echo '';
+                }
+            }
+            if (isset($_POST['show_chat']) && !empty($_POST['show_chat'])) {
+                $chat_type = $_POST['show_chat'];
+                $to_id = $_POST['to'];
+                $from_id = $_POST['from'];
+                $video_id = $_POST['video_id'];
+                if (!empty($to_id) && !empty($from_id)) {
+                    if ($chat_type == 'all') {
+                        //$chat = $this->get_all_chat($to_id, $from_id, $video_id);
+			$chat = $this->get_current_chat($to_id, $from_id, $video_id);
+                    } else {
+                        $chat = $this->get_current_chat($to_id, $from_id, $video_id);
+                    }
+                    echo $this->chat_content($chat, 2);
+                } else {
+                    echo '';
+                }
+            }
+            if (isset($_POST['show_users']) && $_POST['show_users'] == 'show_users') {
+		//$_POST['video_id']=base64_encode($_POST['video_id']);
+                $video_id = $_POST['video_id'];
+
+                if (!empty($video_id)) {
+                    $chatting_users = $this->chatting_users($video_id);
+                    //pr($chatting_users); die;
+                    echo $this->show_chatting_users($chatting_users);
+                } else {
+                    echo '';
+                }
+            }
+        }
+    }
+
+    function insert_chat($to_id, $from_id, $video_id, $message) {
+        $this->TransFilmmakersChat->create();
+
+        $data['TransFilmmakersChat']['from_id'] = $from_id;
+        $data['TransFilmmakersChat']['to_id'] = $to_id;
+        $data['TransFilmmakersChat']['video_id'] = '702';
+        $data['TransFilmmakersChat']['message'] = $message;
+        $data['TransFilmmakersChat']['message_time'] = date("Y-m-d H:i:s");
+
+        $query = $this->TransFilmmakersChat->save($data['TransFilmmakersChat']);
+
+        if ($query) {
+            return 1;
+        } else {
+            return '';
+        }
+    }
+
+    function get_all_chat($to_id, $from_id, $video_id) {
+        $query = $this->TransFilmmakersChat->getChatData($to_id, $from_id);
+        if (isset($query)) {
+            $maxVal = count($query);
+            for ($i = 0; $i <= $maxVal; $i++) {
+                if ($query[$i]) {
+                    $chat_records[] = $query;
+                    $chat_records = array_reverse($query);
+                    // pr($row);
+                    $chat_records = $this->TransMember->arraytoobject($chat_records);
+                    return $chat_records;
+                }
+            }
+        } else {
+            return '';
+        }
+    }
+
+    function get_current_chat($to_id, $from_id, $video_id) {
+
+        $query = $this->TransFilmmakersChat->getCurrentChat($to_id, $from_id, $video_id);
+        if (isset($query)) {
+            //$chat_records[] = $query;
+            $chat_records = array_reverse($query);
+            $chat_records = $this->TransMember->arraytoobject($chat_records);
+            return $chat_records;
+        } else {
+            return '';
+        }
+    }
+
+    function chat_content($chat, $flag = 0) {
+
+        $str = '';
+        foreach ($chat as $r) {
+            $str .= $this->get_chat_div($r, $flag);
+        }
+        return $str;
+    }
+
+    function chatting_users($video_id) {
+        //$sql = "select distinct(from_id) from trans_filmmakers_chat where video_id='".$video_id."' and to_id='".$_SESSION['m_id']."' and from_id<>'".$_SESSION['m_id']."' order by id desc"; // and ( message_time LIKE('%".date('Y-m-d')."%'))  
+        $m_id = $_SESSION['m_id'];
+        $query = $this->TransFilmmakersChat->getChattingUserlist($video_id, $m_id);
+        $row = $this->TransMember->arraytoobject($query);
+        if (isset($row)) {
+            //$user_records[]=$row;
+            return $row;
+        } else {
+            return '';
+        }
+    }
+
+    function get_user_info($id) {
+        if ($id) {
+            $sql = "select * from trans_member where id='" . $id . "'";
+            $query = mysql_query($sql) or die(mysql_error());
+            if ($query && mysql_num_rows($query) > 0) {
+                $user_record = mysql_fetch_object($query);
+                return $user_record;
+            } else {
+                return '';
+            }
+        } else {
+            return '';
+        }
+    }
+
+    function show_chatting_users($users) {
+        $str = '';
+	$str = '<ul class="instant_msg">';
+        foreach ($users as $r) {
+            if (is_object($r)) {
+                $user_info = $this->TransMember->get_user_info($r->trans_filmmakers_chat->from_id);
+		for ($i = 0; $i <= count($user_info); $i++) {
+                    if (isset($user_info[$i])) {
+			$user_info_obj = $this->TransMember->arraytoobject($user_info[$i]['trans_member']);
+                        $img = $user_info_obj->profile_image_file;
+			
+                        $profile_image = 'uploads/photos/' . $img;
+                        
+			if (strlen($img) <= 0 || !file_exists($profile_image)) {
+                            $profile_image = $this->webroot.'css/images/instant_msg_img.png';
+                        }
+			$uri = explode('?id' ,$_SERVER['REQUEST_URI'] );
+			
+			$user_data=$this->User->findById($user_info[$i]['trans_member']['user_id']);
+			//pr($user_data);exit;
+			if($user_data['User']['type'] == 'employer')
+			{
+			    $user_id = $user_data['User']['id'];
+			    $employerData = $this->EmployerProfile->getEmployerProfileById($user_id);
+			    $profile_image = $this->webroot.'uploads/'.$employerData[0]['employer_profile']['company_logo'];
+			}
+			elseif($user_data['User']['type'] == 'candidate')
+			{
+			    $user_id = $user_data['User']['id'];
+			    $CandidateData =$this->JobJobseeker->getJobJobseekerById($user_id);
+			    $profile_image = $this->webroot.'uploads/photos/'.$CandidateData[0]['job_jobseeker']['seeker_photo'];
+			    
+			}
+			if(empty($profile_image)){
+			    $profile_image = $this->webroot.'css/images/instant_msg_img.png';
+			}
+			
+			if($user_data['User']['status']=='active'){
+			    $str .= '<li>
+				    <a href="'.$this->webroot.'im/my_chat_room?chat_with=' . base64_encode($r->trans_filmmakers_chat->from_id) . '&id=' . $_REQUEST['video_id'] . '" target="_blank" class="inst_msg_img"><img src="' . $profile_image . '" alt="" /></a>
+				    <a href="'.$this->webroot.'im/my_chat_room?chat_with=' . base64_encode($r->trans_filmmakers_chat->from_id) . '&id=' . $_REQUEST['video_id'] . '" target="_blank" class="inst_msg_txt">' . $user_data['User']['name'].'<span class="status"></span></a>
+				    <div class="clearfix"></div>
+				</li>';
+			}
+			else{
+			    $str .= '<li>
+				<a href="'.$this->webroot.'im/my_chat_room?chat_with=' . base64_encode($r->trans_filmmakers_chat->from_id) . '&id=' . $_REQUEST['video_id'] . '" target="_blank" class="inst_msg_img"><img src="' . $profile_image . '" alt="" /></a>
+				<a href="'.$this->webroot.'im/my_chat_room?chat_with=' . base64_encode($r->trans_filmmakers_chat->from_id) . '&id=' . $_REQUEST['video_id'] . '" target="_blank" class="inst_msg_txt">' . $user_data['User']['name']. '<span class="off"></span></a>
+				<div class="clearfix"></div>
+			    </li>';
+			}
+			
+                        //$str .= '<table><tr><td><img width="30" height="30" alt="' . $r->trans_filmmakers_chat->from_id . '" src="' . $profile_image . '"/></td>';
+
+                        //$str .= '<td class="user_span"><a title="profile url" href="'.$this->webroot.'/im/my_chat_room?chat_with=' . base64_encode($r->trans_filmmakers_chat->from_id) . '&id=' . $_REQUEST['video_id'] . '" target="_blank">' . $user_info_obj->first_name . ' ' . $user_info_obj->last_name . '</a></td></tr></table>';
+                         $i++;
+                    }
+		    else{
+			$str .= '<li>
+				Add members from network.
+				<div class="clearfix"></div>
+			    </li>';
+		    }
+                }		
+            }
+	   
+            unset($user_info);
+        }
+	$str .= '</ul>';
+        return $str;
+    }
+
+    function get_chat_div($r, $flag) {
+        error_reporting(0);
+        if (is_object($r->trans_filmmakers_chat)) {
+            $convertingtime = strtotime($r->trans_filmmakers_chat->message_time);
+            // Convert it to the format you desire
+            
+            $message_time = date("g:i:s A", $convertingtime);
+
+            $sender_info = $this->TransMember->get_user_info($r->trans_filmmakers_chat->from_id);
+            $sender_info = $this->TransMember->arraytoobject($sender_info[0]['trans_member']);
+            //pr($sender_info->user_id);
+            //die;
+
+	    $user_id =  $sender_info->user_id;
+	    
+	    $user_data=$this->User->findById($user_id);
+			//pr($user_data);exit;
+			if($user_data['User']['type'] == 'employer')
+			{
+			    $user_id = $user_data['User']['id'];
+			    $employerData = $this->EmployerProfile->getEmployerProfileById($user_id);
+			    $sender_image = $this->webroot.'uploads/'.$employerData[0]['employer_profile']['company_logo'];
+			}
+			elseif($user_data['User']['type'] == 'candidate')
+			{
+			    $user_id = $user_data['User']['id'];
+			    $CandidateData =$this->JobJobseeker->getJobJobseekerById($user_id);
+			    $sender_image = $this->webroot.'uploads/photos/'.$CandidateData[0]['job_jobseeker']['seeker_photo'];
+			    
+			}
+			if(empty($sender_image)){
+			    $sender_image = $this->webroot.'css/images/instant_msg_img.png';
+			}
+	    
+            //$from_img = $sender_info->profile_image_file;
+            //$sender_image = 'uploads/main/' . $from_img;
+            //if (strlen($from_img) <= 0 || !file_exists($sender_image)) {
+            //    $sender_image = 'uploads/main/nopicture.png';
+            //}
+            $str = '<table class="chat_table">
+                        <tr>
+                            <td style="padding:5px;" class="first_td">
+                                <img width="30" height="30" src="' . $sender_image . '"/>
+                            </td>
+                            <td colspan="2" style="font-weight:bold;">
+                                ' . $user_data['User']['name'] . '
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="first_td"></td>
+                            <td colspan="2" style="color:#013b51;font-weight:bold">' . $r->trans_filmmakers_chat->message . '</td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:right">' . $message_time . '</td>
+                        </tr>
+
+                    </table>';
+        } else {
+            foreach ($r as $val) {
+                $convertingtime = strtotime($val->trans_filmmakers_chat->message_time);
+                // Convert it to the format you desire
+                $message_time = date("g:i:s A", $convertingtime);
+
+                $sender_info = $this->TransMember->get_user_info($val->trans_filmmakers_chat->from_id);
+                $sender_info = $this->TransMember->arraytoobject($sender_info[0]['trans_member']);
+                //pr($sender_info);
+                //die;
+
+		
+			    $user_id =  $sender_info->user_id;
+	    
+	    $user_data=$this->User->findById($user_id);
+			//pr($user_data);exit;
+			if($user_data['User']['type'] == 'employer')
+			{
+			    $user_id = $user_data['User']['id'];
+			    $employerData = $this->EmployerProfile->getEmployerProfileById($user_id);
+			    $sender_image = $this->webroot.'uploads/'.$employerData[0]['employer_profile']['company_logo'];
+			}
+			elseif($user_data['User']['type'] == 'candidate')
+			{
+			    $user_id = $user_data['User']['id'];
+			    $CandidateData =$this->JobJobseeker->getJobJobseekerById($user_id);
+			    $sender_image = $this->webroot.'uploads/photos/'.$CandidateData[0]['job_jobseeker']['seeker_photo'];
+			    
+			}
+			if(empty($profile_image)){
+			    $sender_image = $this->webroot.'css/images/instant_msg_img.png';
+			}
+		
+                //$from_img = $sender_info->profile_image_file;
+                //$sender_image = 'uploads/main/' . $from_img;
+                //if (strlen($from_img) <= 0 || !file_exists($sender_image)) {
+                //    $sender_image = 'uploads/main/nopicture.png';
+                //}
+                $str .= '<table class="chat_table">
+                        <tr>
+                            <td style="padding:5px;" class="first_td">
+                                <img width="30" height="30" src="' . $sender_image . '"/>
+                            </td>
+                            <td colspan="2" style="font-weight:bold;">
+                                ' . $user_data['User']['name'] . '
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td class="first_td"></td>
+                            <td colspan="2" style="color:#013b51;font-weight:bold">' . $val->trans_filmmakers_chat->message . '</td>
+
+                        </tr>
+                        <tr>
+                            <td colspan="3" style="text-align:right">' . $message_time . '</td>
+                        </tr>
+
+                    </table>';
+            }
+        }
+        // pr($str);
+        //die;
+        return $str;
+    }
+
+    function my_chat_room() {
+
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/global.php');
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/SimpleImage.php');
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/main.php');
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/member.php');
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/membership_manage.php');
+        require_once(dirname(dirname(__file__)) . '/Vendor/im/member_scheme.php');
+
+
+        $simpleImg = new SimpleImage();
+        $main = new main();
+        $member = new member();
+        $membership = new membership_manage();
+        $memberScheme = new member_scheme();
+
+        $user_id = base64_decode($_REQUEST['chat_with']);
+	
+        $this->set('user_id', $user_id);
+        $user_record = $this->TransMember->get_user_info($user_id);
+        $user_record = $this->TransMember->arraytoobject($user_record[0]['trans_member']);
+//pr($user_record->user_id);
+////die;
+	
+	$user_data=$this->User->findById($user_record->user_id);
+	//pr($user_data);exit;
+	if($user_data['User']['type'] == 'employer')
+	{
+	$user_id = $user_data['User']['id'];
+	$employerData = $this->EmployerProfile->getEmployerProfileById($user_id);
+	$profile_image = $this->webroot.'uploads/'.$employerData[0]['employer_profile']['company_logo'];
+	}
+	elseif($user_data['User']['type'] == 'candidate')
+	{
+	$user_id = $user_data['User']['id'];
+	$CandidateData =$this->JobJobseeker->getJobJobseekerById($user_id);
+	$profile_image = $this->webroot.'uploads/photos/'.$CandidateData[0]['job_jobseeker']['seeker_photo'];
+	
+	}
+	if(empty($profile_image)){
+	$profile_image = $this->webroot.'css/images/instant_msg_img.png';
+	}
+	
+
+        if ($user_record) {
+
+            //$uimage = $user_record->profile_image_file;
+            $this->set('uimage', $profile_image );
+            $u_fname = $user_data['User']['name'];
+            $this->set('u_fname', $u_fname);
+            $u_lname = $user_record->last_name;
+            $this->set('u_lname', '');
+            //$u_unique_id = $user_record->unique_id;
+            $this->set('u_unique_id', '');
+            //$u_image = 'uploads/main/' . $uimage;
+            
+
+            //if (!strlen($uimage) || !file_exists($u_image)) {
+            //    $u_image = 'uploads/main/nopicture.png';
+            //}
+        }
+	else {
+            $u_image = 'uploads/main/nopicture.png';
+            $u_fname = '';
+            $u_lname = '';
+        }
+    }
+
+}

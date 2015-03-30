@@ -1,0 +1,436 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Candidate Searchpage</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<!--<link href="css/bootstrap-theme.css" rel="stylesheet">-->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="js/html5.js"></script>
+	<![endif]-->
+<!-- style theme -->
+<link href="css/style.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/lightbox.css" media="screen" />
+<link type="text/css" rel="stylesheet" href="css/responsive-tabs.css" />
+<link href="css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+<header class="header">
+  <section class="top-wrap">
+    <section class="container">
+      <div class="row">
+        <aside class="col-md-7 pull-right clearfix">
+          <ul class="top-buttons">
+            <li><a href="#"><i class="fa fa-link"></i>Upgrade link </a></li>
+            <li><a href="#"><i class="fa fa-info-circle"></i>Notifications </a>  	</li>
+            <li><a href="#"><i class="fa fa-lock"></i>Sign Up </a></li>
+            <li><a href="#"><i class="fa fa-power-off"></i>Log in/Register </a></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </section>
+  <section class="container">
+    <div class="row search">
+      <aside class="col-sm-6 brand"> <a><img src="images/logo.png" alt="" /></a> </aside>
+      <aside class="col-sm-6">
+        <div class="search-box">
+          <form class="form-search">
+            <input type="text" placeholder="What are you looking for?" />
+            <button type="submit" class="btn"><i class="fa fa-search"></i>Search</button>
+          </form>
+        </div>
+      </aside>
+    </div>
+  </section>
+  <section  class="nav-wrap">
+    <div class="container">
+      <div class="row"> 
+        <!-- Start: Navigation wrapper -->
+        
+        <nav role="navigation" class="navbar navbar-default">
+          <div class="container-fluid"> 
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+            </div>
+            
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Daily Deals</a></li>
+                <li><a href="#">Help / Report Abuse</a></li>
+                <li><a href="#">Knowledge Room</a></li>
+                <li><a href="#">Employer</a></li>
+                <li><a href="#">Candidates</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse --> 
+          </div>
+          <!-- /.container-fluid --> 
+        </nav>
+      </div>
+    </div>
+  </section>
+</header>
+<section class="container container_1">
+  <div class="row">
+    <div class="MainContent"> 
+      <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++New Container Sections+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+      
+      <div class="main_ctnr_middle main_left">
+        <section class="profile_main">
+          <div class="profile_content">
+            <h2>Candidate Search</h2>
+            <div class="orng_dvdr"></div>
+            <div class="signup_sec">
+              <p class="come-join">The Possibilites are endless when you recruit the  <span class="yellow-txt">Right Candidate(s)</span></p>
+              <div class="greyline"></div>
+             
+              <div id="pageWrap" class="pageWrap">
+                <div class="pageContent">
+                <h2 class="blue-heading">Find your ideal employee(s)</h2>
+                  <div class="white-div">
+                  	<div class="inpt_area">
+                          <label for="key_word">Keywords or Candidate‘s Username</label>
+                          <input type="text" value="" name="" id="key_word">
+                    </div>
+                    <div class="inpt_area">
+                          <label for="location">Location</label>
+                          <input type="text" value="" name="" id="location">
+                    </div>
+                    
+                        <div class="advance_search">
+                        	<div class="heading candi-left">Need Further Options?  Go to <a class="button-dropdown" href="#"><span>Advanced Search</span><i class="fa fa-fw"></i></a></div> 
+																									<div class="salary candi-right">
+                              <input type="button" class="blue_btn"  value="Search"/>
+                            </div>
+																												</div>
+																												<div class="clearfix"></div>
+                            <div class="ad-div">
+                            	<h2>Advance search</h2>
+                                <div class="inpt_area">
+                                      <label for="key_word">Keywords or Candidates Username</label>
+                                      <input type="text" value="" name="" id="key_word">
+                                </div>
+                      
+                                <div class="inpt_area">
+                                     <div class="list-row">
+                                        <div class="salary">
+                                         <label>Location</label>
+                                         <input type="text" value="" />
+    
+                                        </div>
+                                        <div class="salary pull-right">
+                                         <label>With in</label>
+                                          <select class="select" tabindex="1">
+                                            <option value="">Select</option>
+                                            <option value="1">20 miles</option>
+                                            <option value="1">30 miles</option>
+                                            <option value="1">40 miles</option>
+                                            <option value="1">50 miles</option>
+                                            <option value="1">60 miles</option>
+                                          </select>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                      </div>
+                                </div>
+                                <div class="inpt_area">
+                                      <label for="job_type">Skill Set(s) (pick upto 5)</label>
+                                      <input type="text" value="Excel, Word, Customer Service" name="" id="job_type">
+                                </div>
+																																
+																																<div class="inpt_area">
+                                      <label for="job_type">Language(s)</label>
+                                      <input type="text" value="English, German" name="" id="job_type">
+                                </div>
+																																
+																																
+																									<div class="inpt_area">
+                          <label for="l_name">Sector</label>
+                          <div class="list-row full-width">
+                            <div class="date">
+                              <select class="select" tabindex="1">
+                                <option value="">Any</option>
+                                <option value="1">Lorem Ipsum</option>
+                                <option value="1">Lorem Ipsum</option>
+                              </select>
+                            </div>
+                          </div>  
+                        </div>
+																								
+																								
+																									<div class="inpt_area">
+                                      <label for="job_type">Ignore/Withhold</label>
+                                      <input type="text" value="" name="" id="job_type">
+																																						<p class="skill">Skills/Job Title/ Location/Job description</p>
+                          </div>
+																										
+																										
+																										
+																										<div class="inpt_area">
+                          <label for="l_name">Profile Update</label>
+                          <div class="list-row full-width">
+                            <div class="date">
+                              <select class="select" tabindex="1">
+                                <option value="">in last 7 days</option>
+                               
+                              </select>
+                            </div>
+                          </div>  
+                        </div>
+																								
+																								
+																								<div class="inpt_area">
+                          <label for="l_name">Education</label>
+                          <div class="list-row full-width">
+                            <div class="date">
+                              <select class="select" tabindex="1">
+                                <option value="">Any</option>
+                               
+                              </select>
+                            </div>
+                          </div>  
+                        </div>
+																								
+																								
+																								<div class="inpt_area">
+                          <label for="l_name">Sector</label>
+                          <div class="list-row full-width">
+                            <div class="date">
+                              <select class="select" tabindex="1">
+                                <option value="">Any</option>
+                               
+                              </select>
+                            </div>
+                          </div>  
+                        </div>
+																																
+																																
+                                
+                                
+                                  
+                                  
+                                
+                                <div class="inpt_area">
+                                <input type="submit" value="Search" name="" class="blue_btn pull-right">
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+																								
+																								<div class="clearfix"></div>
+																								
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+   
+			
+			<div class="Sidebar-Right">
+        <div class="box right-box search">
+          <div class="search_box">
+            <button type="submit" name="" class="search-btn" value=""><i class="fa fa-search orng"></i></button>
+            <input type="text" name="" value="" placeholder="Job Search" />
+          </div>
+          <select class="select" tabindex="1">
+            <option value="">My Account</option>
+            <option value="1">My Account</option>
+            <option value="2">My Account</option>
+          </select>
+        </div>
+        <div class="box right-box">
+          <div class="title-well">
+            <h2>Candidate</h2>
+          </div>
+          <div class="discretion"> <img class="bdr-img" src="images/job_alert.jpg" alt="" />
+            <h4>Candidate &amp; News Feed</h4>
+            <ul class="bullet_list bl1">
+              <li> <i class="fa fa-caret-right"></i> <a href="#">Upgrade</a> </li>
+              <li> <i class="fa fa-caret-right"></i> <a href="#">Advertise</a> </li>
+              <li> <i class="fa fa-caret-right"></i> <a href="#">Post a Job</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="box right-box"> <img src="images/pic-ads1.jpg" alt="" /> </div>
+        <div class="box right-box">
+          <div class="title-well">
+            <h2>Instant Message</h2>
+          </div>
+          <div class="discretion">
+            <ul class="instant_msg">
+              <li> <a href="#" class="inst_msg_img"><img src="images/instant_msg_img.png" alt="" /></a> <a href="#" class="inst_msg_txt">Johnhaynes<span class="status"></span></a>
+                <div class="clearfix"></div>
+              </li>
+              <li> <a href="#" class="inst_msg_img"><img src="images/instant_msg_img.png" alt="" /></a> <a href="#" class="inst_msg_txt">Johnhaynes<span class="status"></span></a>
+                <div class="clearfix"></div>
+              </li>
+              <li> <a href="#" class="inst_msg_img"><img src="images/instant_msg_img.png" alt="" /></a> <a href="#" class="inst_msg_txt">Johnhaynes<span class="status"></span></a>
+                <div class="clearfix"></div>
+              </li>
+              <li> <a href="#" class="inst_msg_img"><img src="images/instant_msg_img.png" alt="" /></a> <a href="#" class="inst_msg_txt">Johnhaynes<span class="status"></span></a>
+                <div class="clearfix"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="box right-box">
+          <div class="title-well">
+            <h2>Chat Room</h2>
+          </div>
+          <div class="discretion"> <img class="bdr-img" src="images/pic-chat.jpg" alt="" />
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+          </div>
+        </div>
+        <div class="box right-box"> <img src="images/pic-ads2.jpg" alt="" /> </div>
+      </div>
+      
+      
+      <!--++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</section>
+<section class="ads-bttm">
+  <div class="container"> <a href="#"><img src="images/pic-add-mid.jpg" alt="" /></a> </div>
+</section>
+<section class="foot-TopMain">
+  <section class="container">
+    <div class="row">
+      <aside class="col-sm-5">
+        <h3>Get started! Upload resume in one single step</h3>
+        <p>Note: Please provide a valid email id in your CV. </p>
+      </aside>
+      <aside class="col-sm-7">
+        <ul class="upload-search">
+          <li class="Email-Add">
+            <input type="text" class="email" placeholder="Email Address"/>
+          </li>
+          <li class="browse">
+            <div class="browse-btn">
+              <input type="file" class="file">
+              <div class="browse-input">Browse</div>
+            </div>
+          </li>
+          <li><a class="btn btn-upload" href="#">Upload MY CV</a></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <aside class="col-sm-3">
+        <h3>Features</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Why us</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Training</a></li>
+          <li><a href="#">Our Partners</a></li>
+          <li><a href="#">Request a Speaker</a></li>
+        </ul>
+      </aside>
+      <aside class="col-sm-3">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">Get Help</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">Get Involved</a></li>
+          <li><a href="#">Upcoming Events</a></li>
+          <li><a href="#">Other Ways To Help</a></li>
+        </ul>
+      </aside>
+      <aside class="col-sm-3">
+        <h3>Connect</h3>
+        <ul>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Google+</a></li>
+          <li><a href="#">Email Us</a></li>
+          <li><a href="#">Insights</a></li>
+        </ul>
+      </aside>
+      <aside class="col-sm-3">
+        <h3>Share</h3>
+        <ul class="share">
+          <li><a class="twitter" href="#"><i class="fa  fa-twitter"></i>Tweet</a></li>
+          <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i>Share</a></li>
+          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i>Share</a></li>
+          <li><a class="google" href="#"><i class="fa fa-google-plus"></i>plus 1</a></li>
+        </ul>
+      </aside>
+    </div>
+    <div class="copyright">
+      <p class="pull-left">Copyright© 2014 RecruitYoung  |  All Right Reserved </p>
+      <div class="pull-right">
+        <ul class="foot-links">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Terms of uses</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</footer>
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script> 
+<script type="text/javascript" src="js/colorbox.js"></script> 
+<script type="text/javascript" src="js/jquery.responsiveTabs.js"></script> 
+<script type="text/javascript" src="js/respond.min.js"></script> 
+<script type="text/javascript" src="js/respond.src.js"></script> 
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#horizontalTab').responsiveTabs({
+            startCollapsed: 'accordion',
+            collapsible: true,
+            rotate: false,
+            setHash: true
+        });
+		$(".select").selectbox();
+    });
+</script> 
+<script src="js/jquery.accordion.source.js" type="text/javascript" charset="utf-8"></script> 
+<script type="text/javascript">
+		$(document).ready(function () {
+			$('ul').accordion();
+		});
+		$(document).ready(function(){
+		  $(".button-dropdown").click(function(){
+			$(".ad-div").toggle();
+		  });
+		 });
+	</script>
+    
+<script src="js/jquery.screwdefaultbuttonsV2.js"></script>
+	
+	
+	<script type="text/javascript">
+		$(function(){
+		
+			$('input:checkbox').screwDefaultButtons({
+				image: 'url("images/checkbox.png")',
+				width: 18,
+				height: 18
+			});
+
+			
+		
+		});
+	</script>    
+</body>
+</html>

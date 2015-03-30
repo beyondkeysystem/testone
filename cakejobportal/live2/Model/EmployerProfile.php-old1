@@ -1,0 +1,21 @@
+<?php
+
+App::uses('AppModel', 'Model');
+
+class EmployerProfile extends Model {
+
+    public $name = 'EmployerProfile';
+    public $useTable = 'employer_profile';
+    
+    
+    function getEmployerProfile()
+    {
+        return $this->query("select * from employer_profile");
+    }
+    
+    function getEmployerProfileById($id)
+    {
+        return $this->query("select * from employer_profile where emp_id=".$id);
+    }
+    
+    }

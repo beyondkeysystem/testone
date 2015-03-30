@@ -1,0 +1,673 @@
+
+.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:20px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	/*border-collapse: collapse;*/
+        /*margin-left:28%;*/
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #2255AA;
+	background-color: #2f7ed8;
+        
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+
+table.grid {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#330033;
+	border-width: 1px;
+	border-color: #660066;
+	border-collapse: collapse;
+}
+table.grid th {
+        color: #fff;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: blue;
+	background-color: blue;
+        
+}
+table.grid td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ff00ff;
+}
+
+.mydiv{
+    background-color: #B2E6FB;
+    float: left;
+    height: 260px;
+    width: 100%;
+    border-bottom: 4px solid #5FA6DC;
+}
+
+.bandiv{
+    background-color: white;
+    border-style: ridge;
+    border-color:#00CCFF #00CCFF;
+    float: left;
+    float-left: 27%;
+    height: 71%;
+    margin-left: 6%;
+    padding: 0;
+    width: 88%;
+    
+}
+.main{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.hdiv{
+    float: right;
+    margin-right: 5% !important;
+    margin-top: -4%;
+    width: 20%;
+}
+.actions{
+    margin-left: 6%;
+    width: 55% !important;
+    text-align: left !important;
+}
+
+.actionsCl{
+    margin-left: 6%;
+    width: 63% !important;
+}
+
+.top{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+}
+li{
+    float:left;
+    /*width:20% !important;*/
+    
+}
+
+.vertical{
+        
+   list-style-type:none;
+margin:0;
+padding:0;
+    
+}
+
+.headercolor{
+    color:#FFFFFF;
+    font-size: 11px;
+}
+
+.tdfontsize{
+    font-size:70%;
+}
+
+/*----for bandivExtra-----*/
+.badivtbl{width:75% ;
+         height:60% ;
+         border:none ;
+         cellspacing='0';
+         cellpadding='0';
+}
+/*-------end-------*/
+
+/*----for bandivExtra-----*/
+.badivtd{
+        background-color:white;
+        border:none;
+        colspan=3;
+}
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+.gridtbl2 {
+    width: 60%;
+    margin-left: 218px;
+}
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+.gridtbl2C {
+    width: 60%;
+    margin-left: 13px;
+}
+/*-------end-------*/
+
+/*#######################---CSS FOR SMART PHONE---##############################*/
+
+
+/******************--for width:320px--**********************/
+@media only screen 
+and (min-width : 320px) {
+
+.mydiv{
+    background-color: #B2E6FB;
+    float: left;
+    height: 190px;
+    width: 100%;
+    border-bottom: 4px solid #5FA6DC;
+}
+
+/*----for table font size----*/
+.gridtable {font-size:7px;}
+/*----end----*/
+
+/*----for banner div----*/
+.bandiv {
+    
+    height: 54%;
+    
+}
+/*----end----*/
+
+/*----for table header color----*/
+.headercolor {
+    color: #FFFFFF;
+    font-size: 11px;
+}
+/*----end----*/
+
+/*for main menu*/
+.actions {
+    font-size:11px;
+    margin-left: 5%;
+    width: 92% !important;
+}
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+.gridtbl2 {
+    margin-left: 1px !important;
+    width: 60%;
+}
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+.gridtbl2C {
+    width: 60%;
+    margin-left: -12px;
+}
+/*-------end-------*/
+
+
+/*---- for table td padding----*/
+table.gridtable td {
+	border-width: 1px;
+	padding: 0;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+/*----end-----------------------*/
+
+/*---- for table td font size---*/
+table tr td {
+    font-size: 14px;
+    text-align: left;
+    vertical-align: top;
+}
+/*----end-----------------------*/
+
+}
+/******************--end 320px--****************************/
+
+/******************--for width:480px--**********************/
+@media only screen and (min-width: 480px)
+ {
+
+.mydiv{
+    background-color: #B2E6FB;
+    float: left;
+    height: 190px;
+    width: 100%;
+    border-bottom: 4px solid #5FA6DC;
+}
+
+/*----for table font size----*/
+.gridtable {font-size:7px;}
+/*----end----*/
+
+/*----gridtale for dme index----*/
+.gridtableDMEIndex {font-size:11px;}
+/*------end------*/
+
+/*----for banner div----*/
+.bandiv {
+   
+    height: 54%;
+    width: 91%;
+    
+}
+/*----end----*/
+
+/*----for table header color----*/
+.headercolor {
+    color: #FFFFFF;
+    font-size: 10px;
+}
+/*----end----*/
+
+/*for main menu*/
+.actions {
+    font-size:11px;
+    margin-left: 5%;
+    width: 92% !important;
+}
+/*-------end-------*/
+
+/*-----for gridtable margin-----*/
+.gridtbl2 {
+    margin-left: 14px !important;
+    width: 60%;
+}
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+.gridtblC {
+    margin-left: 13px !important;
+    }
+/*-------end-------*/
+
+
+}
+/******************--end 480px--****************************/
+
+/* SMALL TABLET */
+@media only screen and (min-width: 600px) {
+	body {
+		
+	}
+}
+
+/* TABLET/NETBOOK */
+@media only screen and (min-width: 768px) { 
+	body {
+		
+	}
+	
+	
+}
+
+
+/******************--for 1024px--*************************************************/
+
+/* LANDSCAPE TABLET/NETBOOK/LAPTOP */
+@media only screen and (min-width: 1024px) { 
+.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:20px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	/*border-collapse: collapse;*/
+        /*margin-left:28%;*/
+}
+/*for main menu*/
+.actions {
+    font-size:13px;
+    margin-top: -5px;
+    margin-left: 5%;
+    width: 92% !important;
+}
+/*-------end-------*/
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #2255AA;
+	background-color: #2f7ed8;
+        
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+
+table.grid {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#330033;
+	border-width: 1px;
+	border-color: #660066;
+	border-collapse: collapse;
+}
+table.grid th {
+        color: #fff;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: blue;
+	background-color: blue;
+        
+}
+table.grid td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ff00ff;
+}
+
+.mydiv{
+    background-color: #B2E6FB;
+    float: left;
+    height: 260px;
+    width: 100%;
+    border-bottom: 4px solid #5FA6DC;
+}
+
+.bandiv{
+    background-color: white;
+    border-style: ridge;
+    border-color:#00CCFF #00CCFF;
+    float: left;
+    float-left: 27%;
+    height: 71%;
+    margin-left: 6%;
+    padding: 0;
+    width: 88%;
+    
+}
+.main{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.hdiv{
+    float: right;
+    margin-right: 5% !important;
+    margin-top: -4%;
+    width: 20%;
+}
+.actions{
+    margin-left: 6%;
+    width: 55% !important;
+    text-align: left !important;
+}
+
+.actionsCl{
+    margin-left: 6%;
+    width: 63% !important;
+}
+
+.top{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+}
+li{
+    float:left;
+    /*width:20% !important;*/
+    
+}
+
+.vertical{
+        
+   list-style-type:none;
+margin:0;
+padding:0;
+    
+}
+
+.headercolor{
+    color:#FFFFFF;
+    font-size: 11px;
+}
+
+.tdfontsize{
+    font-size:70%;
+}
+
+/*----for bandivExtra-----*/
+.badivtbl{width:75% ;
+         height:60% ;
+         border:none ;
+         cellspacing='0';
+         cellpadding='0';
+}
+/*-------end-------*/
+
+/*----for bandivExtra-----*/
+.badivtd{
+        background-color:white;
+        border:none;
+        colspan=3;
+}
+/*-------end-------*/
+
+/*----for banner div icode td-----*/
+.banIcode{
+       padding-left: 169px;
+}
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+/*-----for gridtable-----*/
+.gridtbl2 {
+    margin-left: 225px !important;
+    width: 60%;
+}
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+.gridtbl2C {
+    width: 60%;
+    margin-left: -12px;
+}
+/*
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+.gridtbl2C {
+    width: 60%;
+    margin-left: 13px;
+}
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+.gridtblC {
+    margin-left: 364px !important;
+    width:0px !important;
+    }
+/*-------end-------*/ {
+ 
+	
+	/* 3 COLUMN GRID */
+	
+}
+
+
+/******************--end 1024px--***********************************************/
+
+/******************--for 1280px--***********************************************/
+@media only screen and (min-width: 1280px) { 
+/* DESKTOP */
+		.gridtable {
+	font-family: verdana,arial,sans-serif;
+	font-size:20px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	/*border-collapse: collapse;*/
+        /*margin-left:28%;*/
+}
+table.gridtable th {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #2255AA;
+	background-color: #2f7ed8;
+        
+}
+table.gridtable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+}
+
+
+table.grid {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#330033;
+	border-width: 1px;
+	border-color: #660066;
+	border-collapse: collapse;
+}
+table.grid th {
+        color: #fff;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: blue;
+	background-color: blue;
+        
+}
+table.grid td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ff00ff;
+}
+
+.mydiv{
+    background-color: #B2E6FB;
+    float: left;
+    height: 260px;
+    width: 100%;
+    border-bottom: 4px solid #5FA6DC;
+}
+
+.bandiv{
+    background-color: white;
+    border-style: ridge;
+    border-color:#00CCFF #00CCFF;
+    float: left;
+    float-left: 27%;
+    height: 71%;
+    margin-left: 6%;
+    padding: 0;
+    width: 88%;
+    
+}
+.main{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.hdiv{
+    float: right;
+    margin-right: 5% !important;
+    margin-top: -4%;
+    width: 20%;
+}
+.actions{
+    margin-left: 6%;
+    width: 55% !important;
+    text-align: left !important;
+}
+
+.actionsCl{
+    margin-left: 6%;
+    width: 63% !important;
+}
+
+.top{
+    width:100%;
+    margin:0;
+    padding:0;
+    float:left;
+}
+li{
+    float:left;
+    /*width:20% !important;*/
+    
+}
+
+.vertical{
+        
+   list-style-type:none;
+margin:0;
+padding:0;
+    
+}
+
+.headercolor{
+    color:#FFFFFF;
+    font-size: 11px;
+}
+
+.tdfontsize{
+    font-size:70%;
+}
+
+/*----for bandivExtra-----*/
+.badivtbl{width:75% ;
+         height:60% ;
+         border:none ;
+         cellspacing='0';
+         cellpadding='0';
+}
+/*-------end-------*/
+
+/*----for bandivExtra-----*/
+.badivtd{
+        background-color:white;
+        border:none;
+        colspan=3;
+}
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+.gridtbl2 {
+    width: 60%;
+    margin-left: 218px;
+}
+/*-------end-------*/
+
+/*-----for gridtable-----*/
+.gridtbl2C {
+    width: 60%;
+    margin-left: 13px;
+}
+/*-------end-------*/
+
+}
+
+/******************--end 1280px--***********************************************/
+
+/* WIDESCREEN */
+/* Increased body size for legibility */
+@media only screen and (min-width: 1400px) { 
+	body {} /* 18.5px / 28px */
+}

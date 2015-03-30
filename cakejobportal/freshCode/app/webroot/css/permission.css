@@ -1,0 +1,32 @@
+/**
+ * Tables
+ */
+table #permission{ width: 100%; border: 1px solid #fff; background-color: #fff; clear: both; border: 1px solid #ddd; -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+table #permission tr th { padding: 10px; background: #e5e5e5; color: #333; border-bottom: 0px; text-align: left; font-weight: bold; }
+table #permission tr th a { color: #333; text-decoration: none; }
+table #permission tr th a:hover { color: #333; text-decoration: underline; }
+table #permission tr td { padding: 10px; border-bottom: 1px solid #dfdfdf; }
+table #permission tr td a { font-weight: normal; text-decoration: none; padding: 0px 5px 0px 0px; }
+table #permission tr td a:hover { text-decoration: underline; }
+table #permission tr td div.operations a { font-size: 12px; margin-right: 15px; text-decoration: none; text-transform: lowercase; }
+table #permission tr td img { margin: 0px; padding: 0px; }
+.striped { background-color: #f8f8f8; }
+
+div.level-0 { }
+div.level-1 { margin-left: 30px; }
+
+img.permission-toggle:hover { cursor: pointer; }
+img.hook-toggle:hover { cursor: pointer; }
+
+#permission .controller-row { background: #6f6f6f; color: #fff; font-weight: bold; }
+#permission .controller-row a { color: #efefef; }
+.controller:hover { cursor: pointer; }
+.collapse { background: url('../img/icons/bullet_arrow_down.png') no-repeat; padding-left: 15px; }
+.expand { background: url('../img/icons/bullet_arrow_right.png') no-repeat; padding-left: 15px; }
+.hidden{
+	color :#666666;
+	display:none;
+}
+.hidden a{
+	color :#666666;
+}

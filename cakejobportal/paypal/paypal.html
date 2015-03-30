@@ -1,0 +1,76 @@
+<tr class="header-title" id="cc-5" style="display: none;">
+								<td><strong><span>Card Details</span></strong></td>
+								<td>
+								    &nbsp;
+								</td>
+							</tr>
+							<!--tr style="display: none;" id="cc-6">
+								<td><strong></strong></td>
+								<td>
+													
+									&nbsp;
+								</td>
+							</tr-->
+							
+							<tr style="display: none;" id="cc-7">
+								<td><strong>Card Type</strong></td>
+								<td id="cardtype">
+								    <select ID="EWAY_CARDTYPE" name="EWAY_CARDTYPE" style="width: 80px !important;">
+									<option value='American Express Corporate'>American Express Corporate</option>
+									<option value='American Express'>American Express</option>
+									<option value='Diners Club'>Diners Club</option>
+									<option value='Discover'>Discover</option>
+									<option value='MasterCard'>MasterCard</option>
+									<option value='JCB'>JCB</option>
+									<option value='Visa' selected='selected'>Visa</option>									
+								    </select>
+								</td>
+							</tr>
+
+							<tr style="display: none;" id="cc-8">
+								<td><strong>Card Number</strong></td>
+								<td id="card">
+				                                 <input name="data[cardno1]" class="span5 card" onkeyup="validatepasskey(this)" id="1" maxlength="4" style="width:33px" type="text"/>										<input name="data[cardno2]" onchange="validatepasskey(this)" class="span5 card" id="2" maxlength="4" style="width:33px" type="text"/>										<input name="data[cardno3]" onchange="validatepasskey(this)" class="span5 card" id="3" maxlength="4" style="width:33px" type="text"/>										<input name="data[cardno4]" onchange="validatepasskey(this)" class="span5 card" id="4" maxlength="4" style="width:33px" type="text"/>										<input type="hidden" name="EWAY_CARDNUMBER" class="span5" required="required" id="CardNumber" value="4111111111111111"/>								</td>
+							</tr>
+							<tr style="display: none;" id="cc-9">
+								<td><strong>Expiry Date </strong></td>
+								<td>
+                                									<select style="width: 80px !important;" ID="EWAY_CARDEXPIRYMONTH" name="EWAY_CARDEXPIRYMONTH">
+										<option value='01' selected='selected'>01</option>
+<option value='02'>02</option>
+<option value='03'>03</option>
+<option value='04'>04</option>
+<option value='05'>05</option>
+<option value='06'>06</option>
+<option value='07'>07</option>
+<option value='08'>08</option>
+<option value='09'>09</option>
+<option value='10'>10</option>
+<option value='11'>11</option>
+<option value='12'>12</option>
+									</select>
+									/
+									<select ID="EWAY_CARDEXPIRYYEAR" name="EWAY_CARDEXPIRYYEAR" style="width: 80px !important;">
+										<option value='14'>14</option>
+<option value='15'>15</option>
+<option value='16'>16</option>
+<option value='17'>17</option>
+<option value='18'>18</option>
+<option value='19'>19</option>
+<option value='20'>20</option>
+<option value='21'>21</option>
+<option value='22'>22</option>
+<option value='23'>23</option>
+<option value='24'>24</option>
+<option value='25'>25</option>
+									</select>									
+									&nbsp;
+								</td>
+							</tr>
+							
+							<tr style="display: none;" id="cc-10">
+								<td><strong>CVV </strong></td>
+								<td>
+                                <div class="input text"><label for=""></label><input name="EWAY_CARDCVN" id="" maxlength="4" type="text"/></div>																		&nbsp;
+								</td>
+							</tr>

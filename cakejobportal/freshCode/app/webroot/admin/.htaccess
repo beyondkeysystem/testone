@@ -1,0 +1,8 @@
+RewriteEngine On 
+#Handle comment redirection 
+RewriteCond %{THE_REQUEST} !^POST 
+RewriteRule ^namrecruit/?(.*)$ /amrecruit/$3 [R=301,L] 
+#Handle removal of index.php and template group from EE URLs 
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteRule ^(.*)$ /cyberdreams/index.php/main/$1 [L]  

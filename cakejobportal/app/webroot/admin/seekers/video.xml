@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+				<video>
+				<config
+					videoWidth = "560"
+					videoHeight = "370"
+					videoBufferTime = "2"
+					autoStartVideoPlay = "yes"
+					autoNextVideo = "yes"
+					videoStartVolume = "75"
+					playerSkinNumber="4"
+					showLogo = "no"
+					videoBarColorName = "blue"
+					volumeBarColorName = "blue"
+					showCoverImage = "yes"
+					coverImagePath = "../../images/cover_anim.swf"
+					hideControlPanelAndMouse="no"
+					hideTime="5"
+					TimeToShowInfoOnVideoStart="2"
+					removeOldFilmEffect="yes"			
+				/>
+				<video_item> 
+					<video_path>../../upvideo/375495water.flv</video_path>
+					<video_title>Seeker Personal Videos</video_title>
+					<video_description>Seeker Persoanal Video</video_description>
+					<thumb_image_path>thumb_images/1.jpg</thumb_image_path>
+				</video_item>
+				
+			</video>

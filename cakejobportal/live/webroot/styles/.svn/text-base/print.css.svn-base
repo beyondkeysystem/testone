@@ -1,0 +1,19 @@
+/* force background off and set it to white */
+#body,  #mainContent1 {
+	background:none;
+	background-image:none;
+	color:#000000;
+}
+
+#mainContent {
+	border: 0px;
+	margin: 0px;
+	padding:0px;
+	width:90%;
+	clear:both;
+	float:none !important;
+}
+#thank,#main_heading{
+	visibility:hidden;
+	display:none;
+}
